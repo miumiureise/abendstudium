@@ -5,7 +5,7 @@ export function createSpeechTools(env=window) {
   function stopAudio(){if(audio){audio.pause();audio.currentTime=0;audio=null;}utterance=null;env.speechSynthesis?.cancel();}
   function stopRecognition(){generation++;const old=recognition;recognition=null;if(old){old.onresult=null;old.onerror=null;old.onend=null;try{old.abort();}catch{}}const callback=status;status=null;callback?.(false);}
   function stop(){stopAudio();stopRecognition();}
-  async function playFile(path,rate=1){stop();audio=new env.Audio(path);audio.playbackRate=rate;await audio.play();}
+  async function playFile(path,rate=1){stop();audio=new env.Audio(path);audio.preservesPitch=true;audio.playbackRate=rate;await audio.play();}
   function speak(text,{lang='de-AT',rate=1,onError=()=>{},onVoice=()=>{}}={}){
     stop();
     if(!env.speechSynthesis||!env.SpeechSynthesisUtterance)throw Error('このブラウザでは読み上げを利用できません。');

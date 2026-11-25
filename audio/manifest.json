@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "entries": {
+    "mythos-b1-p0035": {
+      "category": "novel",
+      "status": "ready",
+      "path": "novel/chapter_01/mythos-b1-p0035.mp3",
+      "text": "Als meine Verlobung endete, wusste ich noch nicht, wie schnell sich mein Leben verändern würde.",
+      "duration_seconds": 5.04
+    },
+    "mythos-b1-p0037": {
+      "category": "novel",
+      "status": "ready",
+      "path": "novel/chapter_01/mythos-b1-p0037.mp3",
+      "text": "Ich hatte einen Verlobten, aber unsere Beziehung war nicht die richtige für mich.",
+      "duration_seconds": 5.6
+    },
+    "mythos-b1-p0039": {
+      "category": "novel",
+      "status": "ready",
+      "path": "novel/chapter_01/mythos-b1-p0039.mp3",
+      "text": "Wir hatten unterschiedliche Vorstellungen von unserem gemeinsamen Leben.",
+      "duration_seconds": 4.0
+    },
+    "praise_01": {
+      "category": "praise",
+      "status": "ready",
+      "path": "praise/praise_01.mp3",
+      "text": "Sehr gut, mein liebes Fräulein.",
+      "duration_seconds": 3.28
+    },
+    "praise_02": {
+      "category": "praise",
+      "status": "ready",
+      "path": "praise/praise_02.mp3",
+      "text": "Ausgezeichnet! Ich bin stolz auf Sie.",
+      "duration_seconds": 2.56
+    },
+    "praise_03": {
+      "category": "praise",
+      "status": "ready",
+      "path": "praise/praise_03.mp3",
+      "text": "Das haben Sie wunderbar gemacht.",
+      "duration_seconds": 2.08
+    },
+    "encourage_01": {
+      "category": "encouragement",
+      "status": "ready",
+      "path": "encouragement/encourage_01.mp3",
+      "text": "Lassen Sie sich Zeit.",
+      "duration_seconds": 1.76
+    },
+    "complete_01": {
+      "category": "completion",
+      "status": "ready",
+      "path": "completion/complete_01.mp3",
+      "text": "Für heute haben Sie genug gelernt.",
+      "duration_seconds": 2.48
+    }
+  }
+}
