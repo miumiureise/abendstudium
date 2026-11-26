@@ -49,7 +49,36 @@ export function createLiterature({getState,update,speech,notify,isCloud}) {
    if(!$('#literature').hidden)$('#lit-german').focus({preventScroll:true});
   }
  }
- function startMic(){if(!current||pending)return;if(speech.recognizing){speech.stopRecognition();return;}const id=current.id,token=session;try{speech.startRecognition({lang:$('#lit-language').value,onStatus:active=>{$('#lit-mic').textContent=active?'■ 認識を停止':'♩ マイクで練習';if(active)$('#lit-speech-status').textContent='聴いています。表示された文章をドイツ語で話してください。';else if($('#lit-speech-status').textContent.startsWith('聴いています'))$('#lit-speech-status').textContent='認識を終了しました。再挑戦はマイクボタンを押してください。';},onError:message=>{$('#lit-speech-status').textContent=message;},onResult:text=>{if(token!==session||current?.id!==id||$('#literature').hidden)return;$('#lit-transcript').value=text;$('#lit-speech-status').textContent='認識しました。文章を比較しています。';void evaluate('recognition');}});}catch(e){$('#lit-speech-status').textContent=e.message;$('#lit-transcript').focus();}}
+ function startMic(){
+  if(!current||pending)return;
+  if(speech.recognizing){speech.stopRecognition();return;}
+  const id=current.id,token=session,status=$('#lit-speech-status');
+  const waiting='マイクを開始しています。';
+  const listening='聴いています。表示された文章をドイツ語で話してください。';
+  status.textContent=waiting;
+  try{
+   speech.startRecognition({
+    lang:$('#lit-language').value,
+    onStatus:active=>{
+     $('#lit-mic').textContent=active?'■ 認識を停止':'♩ マイクで練習';
+     if(active)status.textContent=listening;
+     else if([waiting,listening].includes(status.textContent)){
+      status.textContent='認識を終了しました。再挑戦はマイクボタンを押してください。';
+     }
+    },
+    onError:message=>{status.textContent=message;},
+    onResult:text=>{
+     if(token!==session||current?.id!==id||$('#literature').hidden)return;
+     $('#lit-transcript').value=text;
+     status.textContent='認識しました。文章を比較しています。';
+     void evaluate('recognition');
+    }
+   });
+  }catch(error){
+   status.textContent=error.message;
+   if(!speech.recognitionSupported)$('#lit-transcript').focus();
+  }
+ }
  async function evaluate(source){if(!current||pending)return;const transcript=$('#lit-transcript').value.trim();if(!transcript){notify('ドイツ語を入力または音読してください');return;}if(transcript.length>2000){notify('入力は2000文字以内です');return;}
   speech.stop();const record=current,token=session,result=compare(record.german,transcript),root=$('#lit-result');root.replaceChildren(element('p',`音声認識結果の一致度 ${result.score}%`,'score'));
   const diff=element('div',undefined,'diff');result.diff.forEach(d=>{const word=element('span',d.expected||'（追加）','token'+(d.ok?'':' miss'));if(!d.ok)word.append(element('small',`入力：${d.actual||'（なし）'}`));diff.append(word);});root.append(diff,element('p',result.match?professor.lines.praise:professor.lines.retry));professorState(result.match?'smile':'neutral',result.match?professor.lines.praise:professor.lines.retry);

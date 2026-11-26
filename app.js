@@ -8,7 +8,7 @@ import {seeds} from './seeds.js';
 import {compare,schedule,dayKey,dueCards,parseCSV,csv,validateCards} from './core.js';
 const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
 const fresh=()=>({version:1,literature:freshLiterature(),cards:seeds.map(c=>({...c,id:crypto.randomUUID(),due:new Date().toISOString(),interval:0,reviews:0})),history:[],practice:[],settings:{daily:10,language:'de-AT'}});
-let state=fresh(),client=null,user=null,revision=0,busy=false,current=null,recognizing=false,authEpoch=0,cloudReady=false,professorFeedback=null;
+let state=fresh(),client=null,user=null,revision=0,busy=false,current=null,authEpoch=0,cloudReady=false,professorFeedback=null;
 const speech=createSpeechTools();
 void loadProfessorAudio();
 let literature=null;
@@ -19,7 +19,7 @@ function validateState(data){if(data?.version!==1)throw Error('対応してい�
 async function save(next){if(busy)throw Error('保存中です。少しお待ちください。');busy=true;const epoch=authEpoch;try{if(user){if(!cloudReady)throw Error('クラウドの読込が完了していません。再読み込みしてください');const {data,error}=await client.rpc('save_study_state',{payload:next,expected_revision:revision});if(error)throw Error(error.code==='40001'?'別の端末で更新されました。ページを再読み込みしてください。':error.message);if(epoch!==authEpoch)throw Error('アカウントが変更されました');revision=data;}else localStorage.setItem(localKey,JSON.stringify(next));state=next;render();}finally{busy=false;}}
 function guard(fn){return async e=>{try{await fn(e);}catch(error){toast(error.message||'操作に失敗しました');}};}
 function stopAudio(){speech.stopAudio();}
-function stopSpeech(){speech.stopRecognition();recognizing=false;$('#mic').textContent='♩ マイクで練習';}
+function stopSpeech(){speech.stopRecognition();$('#mic').textContent='♩ マイクで練習';}
 async function play(path){stopAudio();stopSpeech();if(!path){toast('この音声は準備中です。音声ファイルを追加すると再生できます。');return;}try{await speech.playFile(path);}catch{toast('音声を再生できません。ファイルのパスと通信状態をご確認ください。');}}
 function el(tag,text,cls){const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;}
 function showPage(name){stopAudio();stopSpeech();$$('.page').forEach(p=>p.hidden=p.id!==name);$$('[data-page]').forEach(b=>b.classList.toggle('active',b.dataset.page===name));render();if(name==='literature')void literature.open();window.scrollTo(0,0);}
@@ -45,10 +45,10 @@ if(!speech.recognitionSupported)$('#speech-help').textContent='このブラウ�
 $('#mic').onclick=()=>{
  if(speech.recognizing){stopSpeech();return;}const cardId=current?.id,epoch=authEpoch;
  try{speech.startRecognition({lang:$('#language').value,
-  onStatus:active=>{recognizing=active;$('#mic').textContent=active?'■ 認識を停止':'♩ マイクで練習';},
+  onStatus:active=>{$('#mic').textContent=active?'■ 認識を停止':'♩ マイクで練習';},
   onError:toast,
   onResult:text=>{if(epoch===authEpoch&&current?.id===cardId&&!$('#lesson').hidden){$('#transcript').value=text;void evaluate('recognition');}}
- });}catch(e){toast(e.message);$('#transcript').focus();}
+ });}catch(e){toast(e.message);if(!speech.recognitionSupported)$('#transcript').focus();}
 };
 async function evaluate(source){try{if(!current||busy)return;const text=$('#transcript').value.trim();if(!text)throw Error('ドイツ語を入力してください');if(text.length>2000)throw Error('入力は2000文字以内です');const result=compare(current.german,text),node=$('#result');node.replaceChildren(el('p',`音声認識結果の一致度 ${result.score}%`,'score'));const diff=el('div',undefined,'diff');result.diff.forEach(d=>{const token=el('span',d.expected||'（追加）','token'+(d.ok?'':' miss'));if(!d.ok)token.append(el('small',`入力：${d.actual||'（なし）'}`));diff.append(token);});node.append(diff,el('p',result.match?professor.lines.praise:professor.lines.retry));professorFeedback=result.match?'praise':'retry';renderProfessor();playProfessorFeedback({category:result.match?'praise':'encouragement',speech,container:node,fallbackPath:professor.audio[result.match?'praise':'retry']});const next=structuredClone(state);next.practice.push({id:crypto.randomUUID(),cardId:current.id,german:current.german,transcript:text,score:result.score,match:result.match,language:$('#language').value,source,at:new Date().toISOString()});await save(next);node.append(el('small',user?'練習結果をSupabaseに保存しました':'練習結果をこの端末に保存しました'));}catch(e){toast(e.message);$('#result').append(el('p','練習結果は未保存です。通信状態などを確認して、再度比較してください。'));}}
 $('#compare').onclick=()=>evaluate('input');
@@ -79,3 +79,5 @@ if(config.supabaseUrl&&config.supabaseKey){try{if(config.supabaseKey.startsWith(
 if('serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js').catch(()=>toast('オフライン機能を有効にできませんでした'));
 setInterval(()=>{if(!current&&!busy)render();},30000);
 document.addEventListener('visibilitychange',()=>{if(document.hidden){stopAudio();stopSpeech();}else if(!busy)render();});
+
+window.addEventListener('pagehide',()=>speech.stop());
