@@ -1,0 +1,4930 @@
+{
+  "source_sha256": "9346c9ad8d0550c7b545817ada59db369daf5392eacd99b85f7085c3a7848b0e",
+  "nonempty_paragraphs": 846,
+  "records": 330,
+  "counts": {
+    "1": {
+      "story": 30,
+      "expression": 6,
+      "grammar_example": 23,
+      "reading_practice": 3
+    },
+    "2": {
+      "story": 32,
+      "expression": 7,
+      "grammar_example": 26,
+      "reading_practice": 3
+    },
+    "3": {
+      "story": 33,
+      "expression": 6,
+      "grammar_example": 17,
+      "reading_practice": 3
+    },
+    "4": {
+      "story": 41,
+      "expression": 7,
+      "grammar_example": 19,
+      "reading_practice": 4
+    },
+    "5": {
+      "story": 37,
+      "expression": 7,
+      "grammar_example": 22,
+      "reading_practice": 4
+    }
+  },
+  "issues": [],
+  "paragraph_audit": [
+    {
+      "paragraph": 3,
+      "text": "中身で選んだ夫が、",
+      "role": "front_matter"
+    },
+    {
+      "paragraph": 4,
+      "text": "顔まで理想だった件",
+      "role": "front_matter"
+    },
+    {
+      "paragraph": 6,
+      "text": "著　春日リューリック未雨",
+      "role": "front_matter"
+    },
+    {
+      "paragraph": 30,
+      "text": "Kapitel 1: Zwei Wochen später",
+      "role": "chapter_title_de"
+    },
+    {
+      "paragraph": 31,
+      "text": "第1章　婚約破棄から2週間",
+      "role": "chapter_title_ja"
+    },
+    {
+      "paragraph": 32,
+      "text": "重点文法：Präteritum（過去形）・時間表現・als",
+      "role": "chapter_grammar"
+    },
+    {
+      "paragraph": 33,
+      "text": "1. Das Ende einer Verlobung",
+      "role": "section_title_de"
+    },
+    {
+      "paragraph": 34,
+      "text": "婚約の終わり",
+      "role": "section_title_ja"
+    },
+    {
+      "paragraph": 35,
+      "text": "Als meine Verlobung endete, wusste ich noch nicht, wie schnell sich mein Leben verändern würde.",
+      "role": "german",
+      "record_id": "mythos-b1-p0035"
+    },
+    {
+      "paragraph": 36,
+      "text": "婚約が終わったとき、私は自分の人生がこんなにも早く変わるとは、まだ知らなかった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0035"
+    },
+    {
+      "paragraph": 37,
+      "text": "Ich hatte einen Verlobten, aber unsere Beziehung war nicht die richtige für mich.",
+      "role": "german",
+      "record_id": "mythos-b1-p0037"
+    },
+    {
+      "paragraph": 38,
+      "text": "私には婚約者がいた。でも、私たちの関係は私に合ったものではなかった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0037"
+    },
+    {
+      "paragraph": 39,
+      "text": "Wir hatten unterschiedliche Vorstellungen von unserem gemeinsamen Leben.",
+      "role": "german",
+      "record_id": "mythos-b1-p0039"
+    },
+    {
+      "paragraph": 40,
+      "text": "私たちは、これから一緒に送る生活について異なる考えを持っていた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0039"
+    },
+    {
+      "paragraph": 41,
+      "text": "Schließlich lösten wir unsere Verlobung auf.",
+      "role": "german",
+      "record_id": "mythos-b1-p0041"
+    },
+    {
+      "paragraph": 42,
+      "text": "結局、私たちは婚約を解消した。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0041"
+    },
+    {
+      "paragraph": 43,
+      "text": "Natürlich war das ein großer Einschnitt in meinem Leben.",
+      "role": "german",
+      "record_id": "mythos-b1-p0043"
+    },
+    {
+      "paragraph": 44,
+      "text": "もちろん、それは私の人生における大きな転機だった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0043"
+    },
+    {
+      "paragraph": 45,
+      "text": "Aber ich wollte ihn nicht nur deshalb heiraten, weil wir schon verlobt waren.",
+      "role": "german",
+      "record_id": "mythos-b1-p0045"
+    },
+    {
+      "paragraph": 46,
+      "text": "でも、すでに婚約しているという理由だけで、彼と結婚したくはなかった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0045"
+    },
+    {
+      "paragraph": 47,
+      "text": "Ich wollte eine Ehe, in der ich mich wohlfühlen konnte.",
+      "role": "german",
+      "record_id": "mythos-b1-p0047"
+    },
+    {
+      "paragraph": 48,
+      "text": "私は、自分が心地よく暮らせる結婚生活を望んでいた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0047"
+    },
+    {
+      "paragraph": 49,
+      "text": "2. Zwei Wochen später",
+      "role": "section_title_de"
+    },
+    {
+      "paragraph": 50,
+      "text": "2週間後",
+      "role": "section_title_ja"
+    },
+    {
+      "paragraph": 51,
+      "text": "Nur zwei Wochen später lernte ich einen anderen Mann kennen.",
+      "role": "german",
+      "record_id": "mythos-b1-p0051"
+    },
+    {
+      "paragraph": 52,
+      "text": "それからわずか2週間後、私は別の男性と知り合った。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0051"
+    },
+    {
+      "paragraph": 53,
+      "text": "Er war Österreicher, Philosoph und 22 Jahre älter als ich.",
+      "role": "german",
+      "record_id": "mythos-b1-p0053"
+    },
+    {
+      "paragraph": 54,
+      "text": "彼はオーストリア人で、哲学者で、私より22歳年上だった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0053"
+    },
+    {
+      "paragraph": 55,
+      "text": "Schon bei unseren ersten Gesprächen merkte ich, dass er etwas Besonderes war.",
+      "role": "german",
+      "record_id": "mythos-b1-p0055"
+    },
+    {
+      "paragraph": 56,
+      "text": "最初の会話から、彼が特別な人だと感じた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0055"
+    },
+    {
+      "paragraph": 57,
+      "text": "Er war intelligent, freundlich und interessant.",
+      "role": "german",
+      "record_id": "mythos-b1-p0057"
+    },
+    {
+      "paragraph": 58,
+      "text": "彼は知的で、親切で、興味深い人だった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0057"
+    },
+    {
+      "paragraph": 59,
+      "text": "Ich konnte mit ihm über viele verschiedene Themen sprechen.",
+      "role": "german",
+      "record_id": "mythos-b1-p0059"
+    },
+    {
+      "paragraph": 60,
+      "text": "私は彼と、さまざまなテーマについて話すことができた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0059"
+    },
+    {
+      "paragraph": 61,
+      "text": "Besonders wichtig war mir, dass ich mich in seiner Nähe wohlfühlte.",
+      "role": "german",
+      "record_id": "mythos-b1-p0061"
+    },
+    {
+      "paragraph": 62,
+      "text": "何より大切だったのは、彼のそばで心地よくいられることだった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0061"
+    },
+    {
+      "paragraph": 63,
+      "text": "Ich musste mich nicht verstellen.",
+      "role": "german",
+      "record_id": "mythos-b1-p0063"
+    },
+    {
+      "paragraph": 64,
+      "text": "私は無理に自分を取り繕う必要がなかった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0063"
+    },
+    {
+      "paragraph": 65,
+      "text": "Wir lachten zusammen, und unsere Gespräche machten mir Freude.",
+      "role": "german",
+      "record_id": "mythos-b1-p0065"
+    },
+    {
+      "paragraph": 66,
+      "text": "私たちは一緒に笑い、会話を楽しんだ。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0065"
+    },
+    {
+      "paragraph": 67,
+      "text": "3. Ein besonderer Mann",
+      "role": "section_title_de"
+    },
+    {
+      "paragraph": 68,
+      "text": "特別な男性",
+      "role": "section_title_ja"
+    },
+    {
+      "paragraph": 69,
+      "text": "Mit der Zeit erfuhr ich mehr über sein Leben.",
+      "role": "german",
+      "record_id": "mythos-b1-p0069"
+    },
+    {
+      "paragraph": 70,
+      "text": "時間がたつにつれて、私は彼の人生についてもっと知るようになった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0069"
+    },
+    {
+      "paragraph": 71,
+      "text": "Er hatte fünf Kinder, um die er sich als alleinerziehender Vater kümmerte.",
+      "role": "german",
+      "record_id": "mythos-b1-p0071"
+    },
+    {
+      "paragraph": 72,
+      "text": "彼には5人の子どもがいて、シングルファザーとして子どもたちの世話をしていた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0071"
+    },
+    {
+      "paragraph": 73,
+      "text": "Er konnte gut kochen und viele Dinge im Haus selbst machen.",
+      "role": "german",
+      "record_id": "mythos-b1-p0073"
+    },
+    {
+      "paragraph": 74,
+      "text": "彼は料理が上手で、家の中のさまざまなことを自分でこなせた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0073"
+    },
+    {
+      "paragraph": 75,
+      "text": "Außerdem hatte er sogar eine eigene Sauna gebaut.",
+      "role": "german",
+      "record_id": "mythos-b1-p0075"
+    },
+    {
+      "paragraph": 76,
+      "text": "おまけに、彼は自宅にサウナまで建てていた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0075"
+    },
+    {
+      "paragraph": 77,
+      "text": "Ich liebte Saunen schon seit vielen Jahren.",
+      "role": "german",
+      "record_id": "mythos-b1-p0077"
+    },
+    {
+      "paragraph": 78,
+      "text": "私はもう何年も前からサウナが大好きだった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0077"
+    },
+    {
+      "paragraph": 79,
+      "text": "Deshalb fand ich das natürlich besonders interessant.",
+      "role": "german",
+      "record_id": "mythos-b1-p0079"
+    },
+    {
+      "paragraph": 80,
+      "text": "だから、もちろんそれには特に興味を引かれた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0079"
+    },
+    {
+      "paragraph": 81,
+      "text": "Aber ich wollte meine Entscheidung nicht nur von gemeinsamen Interessen abhängig machen.",
+      "role": "german",
+      "record_id": "mythos-b1-p0081"
+    },
+    {
+      "paragraph": 82,
+      "text": "でも、共通の趣味だけで結婚を決めたくはなかった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0081"
+    },
+    {
+      "paragraph": 83,
+      "text": "Ich achtete darauf, wie er mit anderen Menschen umging.",
+      "role": "german",
+      "record_id": "mythos-b1-p0083"
+    },
+    {
+      "paragraph": 84,
+      "text": "私は、彼がほかの人にどう接するかをよく見ていた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0083"
+    },
+    {
+      "paragraph": 85,
+      "text": "Ich überlegte auch, wie unser gemeinsamer Alltag aussehen könnte.",
+      "role": "german",
+      "record_id": "mythos-b1-p0085"
+    },
+    {
+      "paragraph": 86,
+      "text": "私たちが一緒に暮らしたら、日常生活はどんなものになるだろうか、とも考えた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0085"
+    },
+    {
+      "paragraph": 87,
+      "text": "4. Meine Entscheidung",
+      "role": "section_title_de"
+    },
+    {
+      "paragraph": 88,
+      "text": "私の決断",
+      "role": "section_title_ja"
+    },
+    {
+      "paragraph": 89,
+      "text": "Je besser ich ihn kennenlernte, desto sicherer wurde ich.",
+      "role": "german",
+      "record_id": "mythos-b1-p0089"
+    },
+    {
+      "paragraph": 90,
+      "text": "彼を知れば知るほど、私の気持ちは確かなものになっていった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0089"
+    },
+    {
+      "paragraph": 91,
+      "text": "Ich wollte mit diesem Mann mein Leben teilen.",
+      "role": "german",
+      "record_id": "mythos-b1-p0091"
+    },
+    {
+      "paragraph": 92,
+      "text": "私はこの男性と人生を共にしたいと思った。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0091"
+    },
+    {
+      "paragraph": 93,
+      "text": "Später machte ich ihm einen Heiratsantrag.",
+      "role": "german",
+      "record_id": "mythos-b1-p0093"
+    },
+    {
+      "paragraph": 94,
+      "text": "その後、私は彼にプロポーズした。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0093"
+    },
+    {
+      "paragraph": 95,
+      "text": "Und was war das Überraschendste an der ganzen Geschichte?",
+      "role": "german",
+      "record_id": "mythos-b1-p0095"
+    },
+    {
+      "paragraph": 96,
+      "text": "そして、この話で一番驚くべきことは何だったのだろう？",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0095"
+    },
+    {
+      "paragraph": 97,
+      "text": "Ich wählte ihn wegen seines Charakters.",
+      "role": "german",
+      "record_id": "mythos-b1-p0097"
+    },
+    {
+      "paragraph": 98,
+      "text": "私は彼の人柄を理由に選んだ。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0097"
+    },
+    {
+      "paragraph": 99,
+      "text": "Dass er auch äußerlich genau mein Typ war, war ein wunderbarer Zufall.",
+      "role": "german",
+      "record_id": "mythos-b1-p0099"
+    },
+    {
+      "paragraph": 100,
+      "text": "彼の外見まで完全に私の好みだったのは、素晴らしい偶然だった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0099"
+    },
+    {
+      "paragraph": 102,
+      "text": "重要表現",
+      "role": "type_heading"
+    },
+    {
+      "paragraph": 103,
+      "text": "die Verlobung auflösen",
+      "role": "german",
+      "record_id": "mythos-b1-p0103"
+    },
+    {
+      "paragraph": 104,
+      "text": "婚約を解消する。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0103"
+    },
+    {
+      "paragraph": 105,
+      "text": "zwei Wochen später",
+      "role": "german",
+      "record_id": "mythos-b1-p0105"
+    },
+    {
+      "paragraph": 106,
+      "text": "2週間後。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0105"
+    },
+    {
+      "paragraph": 107,
+      "text": "jemanden kennenlernen",
+      "role": "german",
+      "record_id": "mythos-b1-p0107"
+    },
+    {
+      "paragraph": 108,
+      "text": "誰かと知り合う。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0107"
+    },
+    {
+      "paragraph": 109,
+      "text": "sich in jemandes Nähe wohlfühlen",
+      "role": "german",
+      "record_id": "mythos-b1-p0109"
+    },
+    {
+      "paragraph": 110,
+      "text": "誰かのそばで心地よく感じる。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0109"
+    },
+    {
+      "paragraph": 111,
+      "text": "sich verstellen",
+      "role": "german",
+      "record_id": "mythos-b1-p0111"
+    },
+    {
+      "paragraph": 112,
+      "text": "自分を取り繕う。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0111"
+    },
+    {
+      "paragraph": 113,
+      "text": "jemandem einen Heiratsantrag machen",
+      "role": "german",
+      "record_id": "mythos-b1-p0113"
+    },
+    {
+      "paragraph": 114,
+      "text": "誰かにプロポーズする。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0113"
+    },
+    {
+      "paragraph": 116,
+      "text": "文法ポイント① Präteritum（過去形）",
+      "role": "grammar_heading"
+    },
+    {
+      "paragraph": 117,
+      "text": "この章では、物語の過去を表すPräteritumを多く使っている。",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 118,
+      "text": "sein → war",
+      "role": "german",
+      "record_id": "mythos-b1-p0118"
+    },
+    {
+      "paragraph": 119,
+      "text": "〜だった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0118"
+    },
+    {
+      "paragraph": 120,
+      "text": "haben → hatte",
+      "role": "german",
+      "record_id": "mythos-b1-p0120"
+    },
+    {
+      "paragraph": 121,
+      "text": "持っていた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0120"
+    },
+    {
+      "paragraph": 122,
+      "text": "wissen → wusste",
+      "role": "german",
+      "record_id": "mythos-b1-p0122"
+    },
+    {
+      "paragraph": 123,
+      "text": "知っていた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0122"
+    },
+    {
+      "paragraph": 124,
+      "text": "wollen → wollte",
+      "role": "german",
+      "record_id": "mythos-b1-p0124"
+    },
+    {
+      "paragraph": 125,
+      "text": "〜したかった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0124"
+    },
+    {
+      "paragraph": 126,
+      "text": "können → konnte",
+      "role": "german",
+      "record_id": "mythos-b1-p0126"
+    },
+    {
+      "paragraph": 127,
+      "text": "〜できた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0126"
+    },
+    {
+      "paragraph": 128,
+      "text": "müssen → musste",
+      "role": "german",
+      "record_id": "mythos-b1-p0128"
+    },
+    {
+      "paragraph": 129,
+      "text": "〜しなければならなかった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0128"
+    },
+    {
+      "paragraph": 130,
+      "text": "kennenlernen → lernte ... kennen",
+      "role": "german",
+      "record_id": "mythos-b1-p0130"
+    },
+    {
+      "paragraph": 131,
+      "text": "知り合った。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0130"
+    },
+    {
+      "paragraph": 132,
+      "text": "erfahren → erfuhr",
+      "role": "german",
+      "record_id": "mythos-b1-p0132"
+    },
+    {
+      "paragraph": 133,
+      "text": "知った。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0132"
+    },
+    {
+      "paragraph": 134,
+      "text": "werden → wurde",
+      "role": "german",
+      "record_id": "mythos-b1-p0134"
+    },
+    {
+      "paragraph": 135,
+      "text": "〜になった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0134"
+    },
+    {
+      "paragraph": 136,
+      "text": "例文",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 137,
+      "text": "Ich wollte mit diesem Mann mein Leben teilen.",
+      "role": "german",
+      "record_id": "mythos-b1-p0137"
+    },
+    {
+      "paragraph": 138,
+      "text": "私はこの男性と人生を共にしたかった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0137"
+    },
+    {
+      "paragraph": 139,
+      "text": "Er konnte gut kochen.",
+      "role": "german",
+      "record_id": "mythos-b1-p0139"
+    },
+    {
+      "paragraph": 140,
+      "text": "彼は料理が上手だった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0139"
+    },
+    {
+      "paragraph": 141,
+      "text": "Je besser ich ihn kennenlernte, desto sicherer wurde ich.",
+      "role": "german",
+      "record_id": "mythos-b1-p0141"
+    },
+    {
+      "paragraph": 142,
+      "text": "彼を知れば知るほど、私の気持ちは確かなものになっていった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0141"
+    },
+    {
+      "paragraph": 144,
+      "text": "文法ポイント② 時間表現",
+      "role": "grammar_heading"
+    },
+    {
+      "paragraph": 145,
+      "text": "nur zwei Wochen später",
+      "role": "german",
+      "record_id": "mythos-b1-p0145"
+    },
+    {
+      "paragraph": 146,
+      "text": "わずか2週間後。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0145"
+    },
+    {
+      "paragraph": 147,
+      "text": "schon bei unseren ersten Gesprächen",
+      "role": "german",
+      "record_id": "mythos-b1-p0147"
+    },
+    {
+      "paragraph": 148,
+      "text": "最初の会話のときから。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0147"
+    },
+    {
+      "paragraph": 149,
+      "text": "mit der Zeit",
+      "role": "german",
+      "record_id": "mythos-b1-p0149"
+    },
+    {
+      "paragraph": 150,
+      "text": "時間がたつにつれて。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0149"
+    },
+    {
+      "paragraph": 151,
+      "text": "seit vielen Jahren",
+      "role": "german",
+      "record_id": "mythos-b1-p0151"
+    },
+    {
+      "paragraph": 152,
+      "text": "何年も前から。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0151"
+    },
+    {
+      "paragraph": 153,
+      "text": "schließlich",
+      "role": "german",
+      "record_id": "mythos-b1-p0153"
+    },
+    {
+      "paragraph": 154,
+      "text": "最終的に、結局。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0153"
+    },
+    {
+      "paragraph": 155,
+      "text": "später",
+      "role": "german",
+      "record_id": "mythos-b1-p0155"
+    },
+    {
+      "paragraph": 156,
+      "text": "その後、あとで。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0155"
+    },
+    {
+      "paragraph": 157,
+      "text": "例文",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 158,
+      "text": "Nur zwei Wochen später lernte ich einen anderen Mann kennen.",
+      "role": "german",
+      "record_id": "mythos-b1-p0158"
+    },
+    {
+      "paragraph": 159,
+      "text": "わずか2週間後、私は別の男性と知り合った。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0158"
+    },
+    {
+      "paragraph": 160,
+      "text": "Mit der Zeit erfuhr ich mehr über sein Leben.",
+      "role": "german",
+      "record_id": "mythos-b1-p0160"
+    },
+    {
+      "paragraph": 161,
+      "text": "時間がたつにつれて、私は彼の人生についてもっと知るようになった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0160"
+    },
+    {
+      "paragraph": 163,
+      "text": "文法ポイント③ als",
+      "role": "grammar_heading"
+    },
+    {
+      "paragraph": 164,
+      "text": "als には、ここで覚えたい二つの使い方がある。",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 165,
+      "text": "1. 過去の「〜したとき」",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 166,
+      "text": "Als meine Verlobung endete, wusste ich noch nicht, was passieren würde.",
+      "role": "german",
+      "record_id": "mythos-b1-p0166"
+    },
+    {
+      "paragraph": 167,
+      "text": "婚約が終わったとき、これから何が起こるのか、まだ知らなかった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0166"
+    },
+    {
+      "paragraph": 168,
+      "text": "時間を表す als の従属節では、活用した動詞が最後に来る。",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 169,
+      "text": "Als ich ihn kennenlernte, war er 22 Jahre älter als ich.",
+      "role": "german",
+      "record_id": "mythos-b1-p0169"
+    },
+    {
+      "paragraph": 170,
+      "text": "彼と知り合ったとき、彼は私より22歳年上だった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0169"
+    },
+    {
+      "paragraph": 171,
+      "text": "2. 比較の「〜より」",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 172,
+      "text": "Er war 22 Jahre älter als ich.",
+      "role": "german",
+      "record_id": "mythos-b1-p0172"
+    },
+    {
+      "paragraph": 173,
+      "text": "彼は私より22歳年上だった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0172"
+    },
+    {
+      "paragraph": 174,
+      "text": "この文では älter als が「〜より年上」という比較を表す。",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 175,
+      "text": "過去の出来事を表す als と、比較を表す als は、同じ単語でも働きが違う。",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 177,
+      "text": "音読用・重要3文",
+      "role": "type_heading"
+    },
+    {
+      "paragraph": 178,
+      "text": "Nur zwei Wochen später lernte ich einen wunderbaren Mann kennen.",
+      "role": "german",
+      "record_id": "mythos-b1-p0178"
+    },
+    {
+      "paragraph": 179,
+      "text": "わずか2週間後、私は素晴らしい男性と知り合った。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0178"
+    },
+    {
+      "paragraph": 180,
+      "text": "Ich wollte eine Ehe, in der ich mich wohlfühlen konnte.",
+      "role": "german",
+      "record_id": "mythos-b1-p0180"
+    },
+    {
+      "paragraph": 181,
+      "text": "私は、自分が心地よく暮らせる結婚生活を望んでいた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0180"
+    },
+    {
+      "paragraph": 182,
+      "text": "Ich wählte ihn wegen seines Charakters.",
+      "role": "german",
+      "record_id": "mythos-b1-p0182"
+    },
+    {
+      "paragraph": 183,
+      "text": "私は彼の人柄を理由に選んだ。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0182"
+    },
+    {
+      "paragraph": 184,
+      "text": "ーーーーーー",
+      "role": "separator"
+    },
+    {
+      "paragraph": 186,
+      "text": "Kapitel 2: Ich liebte seinen Charakter",
+      "role": "chapter_title_de"
+    },
+    {
+      "paragraph": 187,
+      "text": "第2章　顔ではなく中身で選んだ",
+      "role": "chapter_title_ja"
+    },
+    {
+      "paragraph": 188,
+      "text": "重点文法：Genitiv（2格）・形容詞変化・weil",
+      "role": "chapter_grammar"
+    },
+    {
+      "paragraph": 189,
+      "text": "1. Was war mir wichtig?",
+      "role": "section_title_de"
+    },
+    {
+      "paragraph": 190,
+      "text": "私にとって何が大切だったのか？",
+      "role": "section_title_ja"
+    },
+    {
+      "paragraph": 191,
+      "text": "Als ich meinen zukünftigen Mann kennenlernte, wollte ich ihn nicht nur wegen seines Aussehens wählen.",
+      "role": "german",
+      "record_id": "mythos-b1-p0191"
+    },
+    {
+      "paragraph": 192,
+      "text": "将来の夫と出会ったとき、私は外見だけを理由に彼を選びたくはなかった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0191"
+    },
+    {
+      "paragraph": 193,
+      "text": "Natürlich fand ich ihn attraktiv.",
+      "role": "german",
+      "record_id": "mythos-b1-p0193"
+    },
+    {
+      "paragraph": 194,
+      "text": "もちろん、彼のことを魅力的だと思った。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0193"
+    },
+    {
+      "paragraph": 195,
+      "text": "Aber für eine glückliche Ehe waren mir andere Dinge wichtiger.",
+      "role": "german",
+      "record_id": "mythos-b1-p0195"
+    },
+    {
+      "paragraph": 196,
+      "text": "でも、幸せな結婚生活のためには、もっと大切なことがあった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0195"
+    },
+    {
+      "paragraph": 197,
+      "text": "Sein Charakter, seine Intelligenz und seine Einstellung zum Leben waren mir besonders wichtig.",
+      "role": "german",
+      "record_id": "mythos-b1-p0197"
+    },
+    {
+      "paragraph": 198,
+      "text": "彼の人柄、知性、そして人生に対する考え方が、私には特に重要だった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0197"
+    },
+    {
+      "paragraph": 199,
+      "text": "Ich suchte keinen reichen oder berühmten Mann.",
+      "role": "german",
+      "record_id": "mythos-b1-p0199"
+    },
+    {
+      "paragraph": 200,
+      "text": "私はお金持ちや有名人を探していたわけではなかった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0199"
+    },
+    {
+      "paragraph": 201,
+      "text": "Ich wollte einen zuverlässigen Partner, mit dem ich meinen Alltag teilen konnte.",
+      "role": "german",
+      "record_id": "mythos-b1-p0201"
+    },
+    {
+      "paragraph": 202,
+      "text": "私は、日常生活を共にできる信頼できるパートナーを望んでいた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0201"
+    },
+    {
+      "paragraph": 203,
+      "text": "2. Die guten Eigenschaften meines Mannes",
+      "role": "section_title_de"
+    },
+    {
+      "paragraph": 204,
+      "text": "夫の素晴らしいところ",
+      "role": "section_title_ja"
+    },
+    {
+      "paragraph": 205,
+      "text": "Mein zukünftiger Mann war Philosoph.",
+      "role": "german",
+      "record_id": "mythos-b1-p0205"
+    },
+    {
+      "paragraph": 206,
+      "text": "将来の夫は哲学者だった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0205"
+    },
+    {
+      "paragraph": 207,
+      "text": "Wegen seiner interessanten Gedanken wurden unsere Gespräche nie langweilig.",
+      "role": "german",
+      "record_id": "mythos-b1-p0207"
+    },
+    {
+      "paragraph": 208,
+      "text": "彼の興味深い考えのおかげで、私たちの会話は決して退屈にならなかった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0207"
+    },
+    {
+      "paragraph": 209,
+      "text": "Er hörte mir aufmerksam zu und nahm meine Meinung ernst.",
+      "role": "german",
+      "record_id": "mythos-b1-p0209"
+    },
+    {
+      "paragraph": 210,
+      "text": "彼は私の話を注意深く聞き、私の意見を真剣に受け止めてくれた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0209"
+    },
+    {
+      "paragraph": 211,
+      "text": "Auch seine praktischen Fähigkeiten beeindruckten mich.",
+      "role": "german",
+      "record_id": "mythos-b1-p0211"
+    },
+    {
+      "paragraph": 212,
+      "text": "彼の実生活での能力にも感心した。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0211"
+    },
+    {
+      "paragraph": 213,
+      "text": "Er konnte gut kochen, Dinge reparieren und viele Probleme selbst lösen.",
+      "role": "german",
+      "record_id": "mythos-b1-p0213"
+    },
+    {
+      "paragraph": 214,
+      "text": "彼は料理が上手で、物を修理し、さまざまな問題を自分で解決できた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0213"
+    },
+    {
+      "paragraph": 215,
+      "text": "Als alleinerziehender Vater von fünf Kindern hatte er viel Verantwortung getragen.",
+      "role": "german",
+      "record_id": "mythos-b1-p0215"
+    },
+    {
+      "paragraph": 216,
+      "text": "5人の子どもを育てるシングルファザーとして、彼は多くの責任を担ってきた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0215"
+    },
+    {
+      "paragraph": 217,
+      "text": "Ich beobachtete auch, wie er mit anderen Menschen umging.",
+      "role": "german",
+      "record_id": "mythos-b1-p0217"
+    },
+    {
+      "paragraph": 218,
+      "text": "私は、彼がほかの人にどう接するかもよく見ていた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0217"
+    },
+    {
+      "paragraph": 219,
+      "text": "Die Freundlichkeit meines zukünftigen Mannes war mir wichtiger als der Preis eines teuren Autos.",
+      "role": "german",
+      "record_id": "mythos-b1-p0219"
+    },
+    {
+      "paragraph": 220,
+      "text": "将来の夫の親切さは、高級車の値段よりずっと大切だった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0219"
+    },
+    {
+      "paragraph": 221,
+      "text": "Je mehr Zeit wir miteinander verbrachten, desto sicherer wurde ich.",
+      "role": "german",
+      "record_id": "mythos-b1-p0221"
+    },
+    {
+      "paragraph": 222,
+      "text": "一緒に過ごす時間が増えるほど、私はますます確信するようになった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0221"
+    },
+    {
+      "paragraph": 223,
+      "text": "Wir passten gut zusammen, weil wir ähnliche Vorstellungen vom Leben hatten.",
+      "role": "german",
+      "record_id": "mythos-b1-p0223"
+    },
+    {
+      "paragraph": 224,
+      "text": "私たちは人生に対する考え方が似ていたので、とても相性がよかった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0223"
+    },
+    {
+      "paragraph": 225,
+      "text": "Deshalb entschied ich mich für ihn.",
+      "role": "german",
+      "record_id": "mythos-b1-p0225"
+    },
+    {
+      "paragraph": 226,
+      "text": "だから私は彼を選んだ。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0225"
+    },
+    {
+      "paragraph": 227,
+      "text": "3. Niemand glaubte mir",
+      "role": "section_title_de"
+    },
+    {
+      "paragraph": 228,
+      "text": "誰も信じてくれなかった",
+      "role": "section_title_ja"
+    },
+    {
+      "paragraph": 229,
+      "text": "Aber es gab ein kleines Problem.",
+      "role": "german",
+      "record_id": "mythos-b1-p0229"
+    },
+    {
+      "paragraph": 230,
+      "text": "でも、小さな問題があった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0229"
+    },
+    {
+      "paragraph": 231,
+      "text": "Niemand glaubte mir, dass ich ihn wegen seines Charakters gewählt hatte.",
+      "role": "german",
+      "record_id": "mythos-b1-p0231"
+    },
+    {
+      "paragraph": 232,
+      "text": "私が彼の人柄を理由に選んだということを、誰も信じてくれなかった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0231"
+    },
+    {
+      "paragraph": 233,
+      "text": "Warum glaubten mir die anderen nicht?",
+      "role": "german",
+      "record_id": "mythos-b1-p0233"
+    },
+    {
+      "paragraph": 234,
+      "text": "なぜみんなは私を信じてくれなかったのだろう？",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0233"
+    },
+    {
+      "paragraph": 235,
+      "text": "Weil mein Mann auch äußerlich genau mein Typ war!",
+      "role": "german",
+      "record_id": "mythos-b1-p0235"
+    },
+    {
+      "paragraph": 236,
+      "text": "夫の外見まで完全に私の好みだったからだ！",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0235"
+    },
+    {
+      "paragraph": 237,
+      "text": "Er war ein sehr attraktiver älterer Mann.",
+      "role": "german",
+      "record_id": "mythos-b1-p0237"
+    },
+    {
+      "paragraph": 238,
+      "text": "彼はとても魅力的な年上の男性だった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0237"
+    },
+    {
+      "paragraph": 239,
+      "text": "Sein Gesicht erinnerte mich an George Clooney und Joseph Joestar.",
+      "role": "german",
+      "record_id": "mythos-b1-p0239"
+    },
+    {
+      "paragraph": 240,
+      "text": "彼の顔立ちは、ジョージ・クルーニーやジョセフ・ジョースターを思わせた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0239"
+    },
+    {
+      "paragraph": 241,
+      "text": "Außerdem hatte er eine wunderschöne Stimme.",
+      "role": "german",
+      "record_id": "mythos-b1-p0241"
+    },
+    {
+      "paragraph": 242,
+      "text": "そのうえ、彼は素晴らしい声の持ち主だった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0241"
+    },
+    {
+      "paragraph": 243,
+      "text": "Ich liebte den Klang seiner Stimme.",
+      "role": "german",
+      "record_id": "mythos-b1-p0243"
+    },
+    {
+      "paragraph": 244,
+      "text": "私は彼の声の響きが大好きだった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0243"
+    },
+    {
+      "paragraph": 245,
+      "text": "Ich hörte ihm gern zu, obwohl ich seinen Wiener Dialekt nicht immer verstand.",
+      "role": "german",
+      "record_id": "mythos-b1-p0245"
+    },
+    {
+      "paragraph": 246,
+      "text": "彼のウィーン方言をいつも理解できたわけではなかったけれど、私は喜んで彼の話に耳を傾けた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0245"
+    },
+    {
+      "paragraph": 247,
+      "text": "Meine Freunde sahen meinen attraktiven Mann und dachten sofort, dass ich ihn wegen seines Aussehens gewählt hatte.",
+      "role": "german",
+      "record_id": "mythos-b1-p0247"
+    },
+    {
+      "paragraph": 248,
+      "text": "友人たちは私の魅力的な夫を見て、私が外見を理由に彼を選んだのだとすぐに考えた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0247"
+    },
+    {
+      "paragraph": 249,
+      "text": "Aber das stimmte nicht.",
+      "role": "german",
+      "record_id": "mythos-b1-p0249"
+    },
+    {
+      "paragraph": 250,
+      "text": "でも、それは違った。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0249"
+    },
+    {
+      "paragraph": 251,
+      "text": "4. Mein großes Glück",
+      "role": "section_title_de"
+    },
+    {
+      "paragraph": 252,
+      "text": "私の大きな幸運",
+      "role": "section_title_ja"
+    },
+    {
+      "paragraph": 253,
+      "text": "Ich heiratete ihn wegen seines Charakters, nicht wegen seines Aussehens.",
+      "role": "german",
+      "record_id": "mythos-b1-p0253"
+    },
+    {
+      "paragraph": 254,
+      "text": "私は彼の外見ではなく、人柄を理由に結婚した。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0253"
+    },
+    {
+      "paragraph": 255,
+      "text": "Ich hätte ihn nicht geheiratet, wenn sein Charakter nicht zu mir gepasst hätte.",
+      "role": "german",
+      "record_id": "mythos-b1-p0255"
+    },
+    {
+      "paragraph": 256,
+      "text": "彼の人柄が私に合っていなかったなら、私は彼と結婚しなかっただろう。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0255"
+    },
+    {
+      "paragraph": 257,
+      "text": "Dass sein Aussehen und seine Stimme ebenfalls perfekt zu meinem Geschmack passten, war einfach großes Glück.",
+      "role": "german",
+      "record_id": "mythos-b1-p0257"
+    },
+    {
+      "paragraph": 258,
+      "text": "外見も声も私の好みにぴったりだったのは、ただ本当に幸運だった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0257"
+    },
+    {
+      "paragraph": 259,
+      "text": "Ich wählte einen guten Menschen und fand gleichzeitig meinen Traummann.",
+      "role": "german",
+      "record_id": "mythos-b1-p0259"
+    },
+    {
+      "paragraph": 260,
+      "text": "私は素晴らしい人を選び、同時に理想の男性も見つけたのだった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0259"
+    },
+    {
+      "paragraph": 262,
+      "text": "重要表現",
+      "role": "type_heading"
+    },
+    {
+      "paragraph": 263,
+      "text": "wegen seines Charakters",
+      "role": "german",
+      "record_id": "mythos-b1-p0263"
+    },
+    {
+      "paragraph": 264,
+      "text": "彼の人柄を理由に。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0263"
+    },
+    {
+      "paragraph": 265,
+      "text": "wegen seines Aussehens",
+      "role": "german",
+      "record_id": "mythos-b1-p0265"
+    },
+    {
+      "paragraph": 266,
+      "text": "彼の外見を理由に。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0265"
+    },
+    {
+      "paragraph": 267,
+      "text": "die Freundlichkeit meines Mannes",
+      "role": "german",
+      "record_id": "mythos-b1-p0267"
+    },
+    {
+      "paragraph": 268,
+      "text": "私の夫の親切さ。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0267"
+    },
+    {
+      "paragraph": 269,
+      "text": "ein zuverlässiger Partner",
+      "role": "german",
+      "record_id": "mythos-b1-p0269"
+    },
+    {
+      "paragraph": 270,
+      "text": "信頼できるパートナー。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0269"
+    },
+    {
+      "paragraph": 271,
+      "text": "jemandem aufmerksam zuhören",
+      "role": "german",
+      "record_id": "mythos-b1-p0271"
+    },
+    {
+      "paragraph": 272,
+      "text": "誰かの話を注意深く聞く。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0271"
+    },
+    {
+      "paragraph": 273,
+      "text": "jemandes Meinung ernst nehmen",
+      "role": "german",
+      "record_id": "mythos-b1-p0273"
+    },
+    {
+      "paragraph": 274,
+      "text": "誰かの意見を真剣に受け止める。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0273"
+    },
+    {
+      "paragraph": 275,
+      "text": "zu jemandem passen",
+      "role": "german",
+      "record_id": "mythos-b1-p0275"
+    },
+    {
+      "paragraph": 276,
+      "text": "誰かと相性が合う。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0275"
+    },
+    {
+      "paragraph": 278,
+      "text": "文法ポイント① Genitiv（2格）",
+      "role": "grammar_heading"
+    },
+    {
+      "paragraph": 279,
+      "text": "Genitivは主に「誰の」「何の」という所有や関係を表す。",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 280,
+      "text": "また、wegen のようにGenitivを要求する前置詞もある。",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 281,
+      "text": "男性名詞",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 282,
+      "text": "der Charakter → seines Charakters",
+      "role": "german",
+      "record_id": "mythos-b1-p0282"
+    },
+    {
+      "paragraph": 283,
+      "text": "彼の人柄。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0282"
+    },
+    {
+      "paragraph": 284,
+      "text": "Ich heiratete ihn wegen seines Charakters.",
+      "role": "german",
+      "record_id": "mythos-b1-p0284"
+    },
+    {
+      "paragraph": 285,
+      "text": "私は彼の人柄を理由に結婚した。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0284"
+    },
+    {
+      "paragraph": 286,
+      "text": "中性名詞",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 287,
+      "text": "das Aussehen → seines Aussehens",
+      "role": "german",
+      "record_id": "mythos-b1-p0287"
+    },
+    {
+      "paragraph": 288,
+      "text": "彼の外見。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0287"
+    },
+    {
+      "paragraph": 289,
+      "text": "Ich wählte ihn nicht nur wegen seines Aussehens.",
+      "role": "german",
+      "record_id": "mythos-b1-p0289"
+    },
+    {
+      "paragraph": 290,
+      "text": "私は外見だけを理由に彼を選んだわけではなかった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0289"
+    },
+    {
+      "paragraph": 291,
+      "text": "女性名詞",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 292,
+      "text": "die Stimme → seiner Stimme",
+      "role": "german",
+      "record_id": "mythos-b1-p0292"
+    },
+    {
+      "paragraph": 293,
+      "text": "彼の声。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0292"
+    },
+    {
+      "paragraph": 294,
+      "text": "Ich liebte den Klang seiner Stimme.",
+      "role": "german",
+      "record_id": "mythos-b1-p0294"
+    },
+    {
+      "paragraph": 295,
+      "text": "私は彼の声の響きが大好きだった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0294"
+    },
+    {
+      "paragraph": 296,
+      "text": "複数名詞",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 297,
+      "text": "die Gedanken → seiner Gedanken",
+      "role": "german",
+      "record_id": "mythos-b1-p0297"
+    },
+    {
+      "paragraph": 298,
+      "text": "彼の考えの。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0297"
+    },
+    {
+      "paragraph": 299,
+      "text": "Die Bedeutung seiner Gedanken war mir wichtig.",
+      "role": "german",
+      "record_id": "mythos-b1-p0299"
+    },
+    {
+      "paragraph": 300,
+      "text": "彼の考えの意味は私にとって重要だった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0299"
+    },
+    {
+      "paragraph": 301,
+      "text": "男性・中性単数では、所有冠詞が seines となり、名詞にも通常 -s / -es が付く。",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 302,
+      "text": "女性単数と複数では seiner を使い、名詞は通常変化しない。",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 304,
+      "text": "文法ポイント② 形容詞変化",
+      "role": "grammar_heading"
+    },
+    {
+      "paragraph": 305,
+      "text": "ドイツ語では、冠詞の種類、性、数、格によって形容詞の語尾が変わる。",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 306,
+      "text": "今回は男性名詞 Mann で練習する。",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 307,
+      "text": "定冠詞付き",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 308,
+      "text": "der attraktive Mann",
+      "role": "german",
+      "record_id": "mythos-b1-p0308"
+    },
+    {
+      "paragraph": 309,
+      "text": "その魅力的な男性が。（1格）",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0308"
+    },
+    {
+      "paragraph": 310,
+      "text": "des attraktiven Mannes",
+      "role": "german",
+      "record_id": "mythos-b1-p0310"
+    },
+    {
+      "paragraph": 311,
+      "text": "その魅力的な男性の。（2格）",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0310"
+    },
+    {
+      "paragraph": 312,
+      "text": "dem attraktiven Mann",
+      "role": "german",
+      "record_id": "mythos-b1-p0312"
+    },
+    {
+      "paragraph": 313,
+      "text": "その魅力的な男性に。（3格）",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0312"
+    },
+    {
+      "paragraph": 314,
+      "text": "den attraktiven Mann",
+      "role": "german",
+      "record_id": "mythos-b1-p0314"
+    },
+    {
+      "paragraph": 315,
+      "text": "その魅力的な男性を。（4格）",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0314"
+    },
+    {
+      "paragraph": 316,
+      "text": "定冠詞付きの男性単数では、1格は形容詞に -e、それ以外は -en が付く。",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 317,
+      "text": "不定冠詞付き",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 318,
+      "text": "ein attraktiver Mann",
+      "role": "german",
+      "record_id": "mythos-b1-p0318"
+    },
+    {
+      "paragraph": 319,
+      "text": "一人の魅力的な男性が。（1格）",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0318"
+    },
+    {
+      "paragraph": 320,
+      "text": "eines attraktiven Mannes",
+      "role": "german",
+      "record_id": "mythos-b1-p0320"
+    },
+    {
+      "paragraph": 321,
+      "text": "一人の魅力的な男性の。（2格）",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0320"
+    },
+    {
+      "paragraph": 322,
+      "text": "einem attraktiven Mann",
+      "role": "german",
+      "record_id": "mythos-b1-p0322"
+    },
+    {
+      "paragraph": 323,
+      "text": "一人の魅力的な男性に。（3格）",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0322"
+    },
+    {
+      "paragraph": 324,
+      "text": "einen attraktiven Mann",
+      "role": "german",
+      "record_id": "mythos-b1-p0324"
+    },
+    {
+      "paragraph": 325,
+      "text": "一人の魅力的な男性を。（4格）",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0324"
+    },
+    {
+      "paragraph": 326,
+      "text": "所有冠詞付き",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 327,
+      "text": "mein attraktiver Mann",
+      "role": "german",
+      "record_id": "mythos-b1-p0327"
+    },
+    {
+      "paragraph": 328,
+      "text": "私の魅力的な夫が。（1格）",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0327"
+    },
+    {
+      "paragraph": 329,
+      "text": "meines attraktiven Mannes",
+      "role": "german",
+      "record_id": "mythos-b1-p0329"
+    },
+    {
+      "paragraph": 330,
+      "text": "私の魅力的な夫の。（2格）",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0329"
+    },
+    {
+      "paragraph": 331,
+      "text": "meinem attraktiven Mann",
+      "role": "german",
+      "record_id": "mythos-b1-p0331"
+    },
+    {
+      "paragraph": 332,
+      "text": "私の魅力的な夫に。（3格）",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0331"
+    },
+    {
+      "paragraph": 333,
+      "text": "meinen attraktiven Mann",
+      "role": "german",
+      "record_id": "mythos-b1-p0333"
+    },
+    {
+      "paragraph": 334,
+      "text": "私の魅力的な夫を。（4格）",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0333"
+    },
+    {
+      "paragraph": 335,
+      "text": "例文",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 336,
+      "text": "Die Stimme meines attraktiven Mannes war wunderschön.",
+      "role": "german",
+      "record_id": "mythos-b1-p0336"
+    },
+    {
+      "paragraph": 337,
+      "text": "私の魅力的な夫の声は素晴らしかった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0336"
+    },
+    {
+      "paragraph": 338,
+      "text": "Ich vertraute meinem attraktiven Mann.",
+      "role": "german",
+      "record_id": "mythos-b1-p0338"
+    },
+    {
+      "paragraph": 339,
+      "text": "私は魅力的な夫を信頼していた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0338"
+    },
+    {
+      "paragraph": 340,
+      "text": "Ich heiratete meinen attraktiven Mann.",
+      "role": "german",
+      "record_id": "mythos-b1-p0340"
+    },
+    {
+      "paragraph": 341,
+      "text": "私は魅力的な夫と結婚した。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0340"
+    },
+    {
+      "paragraph": 343,
+      "text": "文法ポイント③ weil（なぜなら〜だから）",
+      "role": "grammar_heading"
+    },
+    {
+      "paragraph": 344,
+      "text": "weil は理由を表す接続詞。",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 345,
+      "text": "weilで始まる従属節では、活用した動詞が最後に来る。",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 346,
+      "text": "Ich wählte ihn, weil sein Charakter zu mir passte.",
+      "role": "german",
+      "record_id": "mythos-b1-p0346"
+    },
+    {
+      "paragraph": 347,
+      "text": "彼の人柄が私に合っていたので、私は彼を選んだ。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0346"
+    },
+    {
+      "paragraph": 348,
+      "text": "Ich hörte ihm gern zu, weil ich seine Stimme liebte.",
+      "role": "german",
+      "record_id": "mythos-b1-p0348"
+    },
+    {
+      "paragraph": 349,
+      "text": "私は彼の声が好きだったので、喜んで彼の話を聞いた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0348"
+    },
+    {
+      "paragraph": 350,
+      "text": "Weil mein Mann sehr attraktiv war, glaubten meine Freunde mir nicht.",
+      "role": "german",
+      "record_id": "mythos-b1-p0350"
+    },
+    {
+      "paragraph": 351,
+      "text": "夫がとても魅力的だったので、友人たちは私を信じなかった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0350"
+    },
+    {
+      "paragraph": 352,
+      "text": "このようにweil節を文頭に置くこともできる。",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 353,
+      "text": "その場合、主節は動詞から始まる。",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 355,
+      "text": "音読用・重要3文",
+      "role": "type_heading"
+    },
+    {
+      "paragraph": 356,
+      "text": "Ich liebte seinen Charakter.",
+      "role": "german",
+      "record_id": "mythos-b1-p0356"
+    },
+    {
+      "paragraph": 357,
+      "text": "私は彼の人柄が好きだった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0356"
+    },
+    {
+      "paragraph": 358,
+      "text": "Die Stimme meines attraktiven Mannes war wunderschön.",
+      "role": "german",
+      "record_id": "mythos-b1-p0358"
+    },
+    {
+      "paragraph": 359,
+      "text": "私の魅力的な夫の声は素晴らしかった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0358"
+    },
+    {
+      "paragraph": 360,
+      "text": "Ich heiratete ihn wegen seines Charakters, weil ich mit ihm glücklich leben konnte.",
+      "role": "german",
+      "record_id": "mythos-b1-p0360"
+    },
+    {
+      "paragraph": 361,
+      "text": "私は彼と幸せに暮らせると思ったので、人柄を理由に彼と結婚した。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0360"
+    },
+    {
+      "paragraph": 362,
+      "text": "・・・・・・・",
+      "role": "separator"
+    },
+    {
+      "paragraph": 364,
+      "text": "Kapitel 3: Lieber eine Sauna als einen Rolls-Royce",
+      "role": "chapter_title_de"
+    },
+    {
+      "paragraph": 365,
+      "text": "第3章　ロールス・ロイスよりサウナ",
+      "role": "chapter_title_ja"
+    },
+    {
+      "paragraph": 366,
+      "text": "重点文法：比較級・als・関係代名詞",
+      "role": "chapter_grammar"
+    },
+    {
+      "paragraph": 367,
+      "text": "1. Was bedeutet Luxus?",
+      "role": "section_title_de"
+    },
+    {
+      "paragraph": 368,
+      "text": "贅沢とは何だろう？",
+      "role": "section_title_ja"
+    },
+    {
+      "paragraph": 369,
+      "text": "Mein früherer Verlobter hatte einen Rolls-Royce.",
+      "role": "german",
+      "record_id": "mythos-b1-p0369"
+    },
+    {
+      "paragraph": 370,
+      "text": "以前の婚約者はロールス・ロイスを持っていた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0369"
+    },
+    {
+      "paragraph": 371,
+      "text": "Das Auto war sehr teuer und sah elegant aus.",
+      "role": "german",
+      "record_id": "mythos-b1-p0371"
+    },
+    {
+      "paragraph": 372,
+      "text": "その車はとても高価で、見た目も上品だった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0371"
+    },
+    {
+      "paragraph": 373,
+      "text": "Viele Menschen fanden einen Rolls-Royce beeindruckend.",
+      "role": "german",
+      "record_id": "mythos-b1-p0373"
+    },
+    {
+      "paragraph": 374,
+      "text": "多くの人はロールス・ロイスを素晴らしいと思っていた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0373"
+    },
+    {
+      "paragraph": 375,
+      "text": "Aber ich stellte mir eine andere Frage.",
+      "role": "german",
+      "record_id": "mythos-b1-p0375"
+    },
+    {
+      "paragraph": 376,
+      "text": "でも、私は別のことを自分に問いかけた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0375"
+    },
+    {
+      "paragraph": 377,
+      "text": "War ein teures Auto wirklich wichtiger als ein angenehmes Leben?",
+      "role": "german",
+      "record_id": "mythos-b1-p0377"
+    },
+    {
+      "paragraph": 378,
+      "text": "高価な車は、本当に快適な暮らしより大切なのだろうか？",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0377"
+    },
+    {
+      "paragraph": 379,
+      "text": "Für mich war Komfort wichtiger als Luxus.",
+      "role": "german",
+      "record_id": "mythos-b1-p0379"
+    },
+    {
+      "paragraph": 380,
+      "text": "私にとっては、豪華さより快適さのほうが大切だった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0379"
+    },
+    {
+      "paragraph": 381,
+      "text": "Ich wollte lieber ein gemütliches Zuhause als ein teures Auto.",
+      "role": "german",
+      "record_id": "mythos-b1-p0381"
+    },
+    {
+      "paragraph": 382,
+      "text": "私は高価な車よりも、居心地のよい家が欲しかった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0381"
+    },
+    {
+      "paragraph": 383,
+      "text": "2. Meine Liebe zu Saunen",
+      "role": "section_title_de"
+    },
+    {
+      "paragraph": 384,
+      "text": "サウナへの愛",
+      "role": "section_title_ja"
+    },
+    {
+      "paragraph": 385,
+      "text": "Schon seit vielen Jahren liebte ich Saunen und Thermalbäder.",
+      "role": "german",
+      "record_id": "mythos-b1-p0385"
+    },
+    {
+      "paragraph": 386,
+      "text": "私は何年も前から、サウナや温泉が大好きだった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0385"
+    },
+    {
+      "paragraph": 387,
+      "text": "Auf meinen Reisen besuchte ich viele Thermen und Saunen in verschiedenen Ländern.",
+      "role": "german",
+      "record_id": "mythos-b1-p0387"
+    },
+    {
+      "paragraph": 388,
+      "text": "旅先では、さまざまな国の温泉やサウナを訪れた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0387"
+    },
+    {
+      "paragraph": 389,
+      "text": "Jede Therme, die ich besuchte, war ein bisschen anders.",
+      "role": "german",
+      "record_id": "mythos-b1-p0389"
+    },
+    {
+      "paragraph": 390,
+      "text": "訪れた温泉は、それぞれ少しずつ違っていた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0389"
+    },
+    {
+      "paragraph": 391,
+      "text": "Manche Saunen waren größer, andere waren kleiner.",
+      "role": "german",
+      "record_id": "mythos-b1-p0391"
+    },
+    {
+      "paragraph": 392,
+      "text": "大きなサウナもあれば、小さなサウナもあった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0391"
+    },
+    {
+      "paragraph": 393,
+      "text": "Aber die besten Orte waren nicht immer die teuersten.",
+      "role": "german",
+      "record_id": "mythos-b1-p0393"
+    },
+    {
+      "paragraph": 394,
+      "text": "でも、最高の場所がいつも一番高価だとは限らなかった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0393"
+    },
+    {
+      "paragraph": 395,
+      "text": "Am wichtigsten war für mich, dass ich mich dort wohlfühlte.",
+      "role": "german",
+      "record_id": "mythos-b1-p0395"
+    },
+    {
+      "paragraph": 396,
+      "text": "私にとって何より大切だったのは、そこで心地よく過ごせることだった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0395"
+    },
+    {
+      "paragraph": 397,
+      "text": "Ich genoss die Wärme, die meinen Körper entspannte.",
+      "role": "german",
+      "record_id": "mythos-b1-p0397"
+    },
+    {
+      "paragraph": 398,
+      "text": "私は、身体をリラックスさせてくれる温かさを楽しんだ。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0397"
+    },
+    {
+      "paragraph": 399,
+      "text": "3. Ein Philosoph mit einer Sauna",
+      "role": "section_title_de"
+    },
+    {
+      "paragraph": 400,
+      "text": "サウナを持つ哲学者",
+      "role": "section_title_ja"
+    },
+    {
+      "paragraph": 401,
+      "text": "Als ich meinen zukünftigen Mann kennenlernte, erfuhr ich etwas Überraschendes.",
+      "role": "german",
+      "record_id": "mythos-b1-p0401"
+    },
+    {
+      "paragraph": 402,
+      "text": "将来の夫と出会ったとき、私は驚くべきことを知った。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0401"
+    },
+    {
+      "paragraph": 403,
+      "text": "Er hatte in seinem eigenen Haus selbst eine Sauna gebaut.",
+      "role": "german",
+      "record_id": "mythos-b1-p0403"
+    },
+    {
+      "paragraph": 404,
+      "text": "彼は自分の家に、自分の手でサウナを建てていた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0403"
+    },
+    {
+      "paragraph": 405,
+      "text": "Das fand ich interessanter als jedes Luxusauto.",
+      "role": "german",
+      "record_id": "mythos-b1-p0405"
+    },
+    {
+      "paragraph": 406,
+      "text": "私には、それがどんな高級車よりも興味深かった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0405"
+    },
+    {
+      "paragraph": 407,
+      "text": "Mein Mann war Philosoph, aber er war auch sehr geschickt.",
+      "role": "german",
+      "record_id": "mythos-b1-p0407"
+    },
+    {
+      "paragraph": 408,
+      "text": "夫は哲学者だったけれど、とても器用な人でもあった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0407"
+    },
+    {
+      "paragraph": 409,
+      "text": "Er war ein Mann, der nicht nur gut denken, sondern auch gut arbeiten konnte.",
+      "role": "german",
+      "record_id": "mythos-b1-p0409"
+    },
+    {
+      "paragraph": 410,
+      "text": "彼は、頭を使うことだけでなく、手を動かして働くことも得意な男性だった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0409"
+    },
+    {
+      "paragraph": 411,
+      "text": "Wenn etwas im Haus kaputtging, konnte er es oft selbst reparieren.",
+      "role": "german",
+      "record_id": "mythos-b1-p0411"
+    },
+    {
+      "paragraph": 412,
+      "text": "家の中で何かが壊れると、彼はよく自分で修理できた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0411"
+    },
+    {
+      "paragraph": 413,
+      "text": "Ich bewunderte seine Fähigkeiten, die unseren Alltag einfacher machten.",
+      "role": "german",
+      "record_id": "mythos-b1-p0413"
+    },
+    {
+      "paragraph": 414,
+      "text": "私は、日常生活を楽にしてくれる彼の能力を尊敬していた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0413"
+    },
+    {
+      "paragraph": 415,
+      "text": "Er war ein Partner, auf den ich mich verlassen konnte.",
+      "role": "german",
+      "record_id": "mythos-b1-p0415"
+    },
+    {
+      "paragraph": 416,
+      "text": "彼は、私が頼りにできるパートナーだった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0415"
+    },
+    {
+      "paragraph": 417,
+      "text": "Für mich war das wertvoller als großer Reichtum.",
+      "role": "german",
+      "record_id": "mythos-b1-p0417"
+    },
+    {
+      "paragraph": 418,
+      "text": "私にとって、それは大きな富より価値があった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0417"
+    },
+    {
+      "paragraph": 419,
+      "text": "4. Mein eigener Luxus",
+      "role": "section_title_de"
+    },
+    {
+      "paragraph": 420,
+      "text": "私自身の贅沢",
+      "role": "section_title_ja"
+    },
+    {
+      "paragraph": 421,
+      "text": "Unser Haus war vielleicht nicht das teuerste Haus der Welt.",
+      "role": "german",
+      "record_id": "mythos-b1-p0421"
+    },
+    {
+      "paragraph": 422,
+      "text": "私たちの家は、世界で一番高価な家ではなかったかもしれない。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0421"
+    },
+    {
+      "paragraph": 423,
+      "text": "Aber es war ein Zuhause, in dem ich mich wohlfühlte.",
+      "role": "german",
+      "record_id": "mythos-b1-p0423"
+    },
+    {
+      "paragraph": 424,
+      "text": "でも、それは私が心地よく過ごせる住まいだった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0423"
+    },
+    {
+      "paragraph": 425,
+      "text": "Die Sauna, die mein Mann selbst gebaut hatte, war für mich ein besonderer Luxus.",
+      "role": "german",
+      "record_id": "mythos-b1-p0425"
+    },
+    {
+      "paragraph": 426,
+      "text": "夫が自分の手で建てたサウナは、私にとって特別な贅沢だった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0425"
+    },
+    {
+      "paragraph": 427,
+      "text": "Ich konnte in die Sauna gehen, wann immer ich wollte.",
+      "role": "german",
+      "record_id": "mythos-b1-p0427"
+    },
+    {
+      "paragraph": 428,
+      "text": "私は好きなときに、いつでもサウナに入れた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0427"
+    },
+    {
+      "paragraph": 429,
+      "text": "Das war viel praktischer als eine lange Fahrt zu einer Therme.",
+      "role": "german",
+      "record_id": "mythos-b1-p0429"
+    },
+    {
+      "paragraph": 430,
+      "text": "それは温泉施設まで長い時間をかけて移動するより、ずっと便利だった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0429"
+    },
+    {
+      "paragraph": 431,
+      "text": "Ein Rolls-Royce konnte mich von einem Ort zum anderen bringen.",
+      "role": "german",
+      "record_id": "mythos-b1-p0431"
+    },
+    {
+      "paragraph": 432,
+      "text": "ロールス・ロイスなら、私をある場所から別の場所へ運ぶことができた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0431"
+    },
+    {
+      "paragraph": 433,
+      "text": "Aber unsere Sauna gab mir jeden Tag Wärme und Ruhe.",
+      "role": "german",
+      "record_id": "mythos-b1-p0433"
+    },
+    {
+      "paragraph": 434,
+      "text": "でも、私たちのサウナは、毎日の暮らしに温かさと安らぎを与えてくれた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0433"
+    },
+    {
+      "paragraph": 435,
+      "text": "Ich brauchte keinen teureren Wagen.",
+      "role": "german",
+      "record_id": "mythos-b1-p0435"
+    },
+    {
+      "paragraph": 436,
+      "text": "私には、もっと高価な車など必要なかった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0435"
+    },
+    {
+      "paragraph": 437,
+      "text": "Ich brauchte ein Leben, das besser zu mir passte.",
+      "role": "german",
+      "record_id": "mythos-b1-p0437"
+    },
+    {
+      "paragraph": 438,
+      "text": "私に必要だったのは、もっと自分に合った暮らしだった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0437"
+    },
+    {
+      "paragraph": 439,
+      "text": "Und genau dieses Leben fand ich mit meinem Mann.",
+      "role": "german",
+      "record_id": "mythos-b1-p0439"
+    },
+    {
+      "paragraph": 440,
+      "text": "そして私は、まさにその暮らしを夫とともに見つけたのだった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0439"
+    },
+    {
+      "paragraph": 442,
+      "text": "重要表現",
+      "role": "type_heading"
+    },
+    {
+      "paragraph": 443,
+      "text": "lieber A als B",
+      "role": "german",
+      "record_id": "mythos-b1-p0443"
+    },
+    {
+      "paragraph": 444,
+      "text": "BよりAのほうがいい。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0443"
+    },
+    {
+      "paragraph": 445,
+      "text": "wichtiger als",
+      "role": "german",
+      "record_id": "mythos-b1-p0445"
+    },
+    {
+      "paragraph": 446,
+      "text": "〜より大切な。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0445"
+    },
+    {
+      "paragraph": 447,
+      "text": "wertvoller als",
+      "role": "german",
+      "record_id": "mythos-b1-p0447"
+    },
+    {
+      "paragraph": 448,
+      "text": "〜より価値のある。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0447"
+    },
+    {
+      "paragraph": 449,
+      "text": "sich auf jemanden verlassen können",
+      "role": "german",
+      "record_id": "mythos-b1-p0449"
+    },
+    {
+      "paragraph": 450,
+      "text": "誰かを頼りにできる。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0449"
+    },
+    {
+      "paragraph": 451,
+      "text": "zu jemandem passen",
+      "role": "german",
+      "record_id": "mythos-b1-p0451"
+    },
+    {
+      "paragraph": 452,
+      "text": "誰かに合っている。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0451"
+    },
+    {
+      "paragraph": 453,
+      "text": "sich wohlfühlen",
+      "role": "german",
+      "record_id": "mythos-b1-p0453"
+    },
+    {
+      "paragraph": 454,
+      "text": "心地よく過ごす。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0453"
+    },
+    {
+      "paragraph": 456,
+      "text": "文法ポイント① 比較級と als",
+      "role": "grammar_heading"
+    },
+    {
+      "paragraph": 457,
+      "text": "ドイツ語では、形容詞や副詞に -er を付けると、比較級になることが多い。",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 458,
+      "text": "wichtig → wichtiger",
+      "role": "german",
+      "record_id": "mythos-b1-p0458"
+    },
+    {
+      "paragraph": 459,
+      "text": "重要な → より重要な。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0458"
+    },
+    {
+      "paragraph": 460,
+      "text": "teuer → teurer",
+      "role": "german",
+      "record_id": "mythos-b1-p0460"
+    },
+    {
+      "paragraph": 461,
+      "text": "高価な → より高価な。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0460"
+    },
+    {
+      "paragraph": 462,
+      "text": "bequem → bequemer",
+      "role": "german",
+      "record_id": "mythos-b1-p0462"
+    },
+    {
+      "paragraph": 463,
+      "text": "快適な → より快適な。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0462"
+    },
+    {
+      "paragraph": 464,
+      "text": "interessant → interessanter",
+      "role": "german",
+      "record_id": "mythos-b1-p0464"
+    },
+    {
+      "paragraph": 465,
+      "text": "興味深い → より興味深い。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0464"
+    },
+    {
+      "paragraph": 466,
+      "text": "wertvoll → wertvoller",
+      "role": "german",
+      "record_id": "mythos-b1-p0466"
+    },
+    {
+      "paragraph": 467,
+      "text": "価値のある → より価値のある。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0466"
+    },
+    {
+      "paragraph": 468,
+      "text": "gut → besser",
+      "role": "german",
+      "record_id": "mythos-b1-p0468"
+    },
+    {
+      "paragraph": 469,
+      "text": "よい → よりよい。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0468"
+    },
+    {
+      "paragraph": 470,
+      "text": "gern → lieber",
+      "role": "german",
+      "record_id": "mythos-b1-p0470"
+    },
+    {
+      "paragraph": 471,
+      "text": "好んで → より好んで。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0470"
+    },
+    {
+      "paragraph": 472,
+      "text": "例文",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 473,
+      "text": "Die Sauna war mir wichtiger als das Auto.",
+      "role": "german",
+      "record_id": "mythos-b1-p0473"
+    },
+    {
+      "paragraph": 474,
+      "text": "サウナは車より私にとって大切だった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0473"
+    },
+    {
+      "paragraph": 475,
+      "text": "Mein Mann war geschickter als ich.",
+      "role": "german",
+      "record_id": "mythos-b1-p0475"
+    },
+    {
+      "paragraph": 476,
+      "text": "夫は私より器用だった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0475"
+    },
+    {
+      "paragraph": 477,
+      "text": "Ich wollte lieber eine Sauna als einen Rolls-Royce.",
+      "role": "german",
+      "record_id": "mythos-b1-p0477"
+    },
+    {
+      "paragraph": 478,
+      "text": "私はロールス・ロイスよりサウナが欲しかった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0477"
+    },
+    {
+      "paragraph": 479,
+      "text": "比較するときは、基本的に 比較級 + als を使う。",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 481,
+      "text": "文法ポイント② 関係代名詞",
+      "role": "grammar_heading"
+    },
+    {
+      "paragraph": 482,
+      "text": "関係代名詞は、直前の名詞について詳しく説明するときに使う。",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 483,
+      "text": "関係代名詞の形は、先行する名詞の性・数と、関係節の中での役割によって決まる。",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 484,
+      "text": "1格：der",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 485,
+      "text": "Er war ein Mann, der viele Dinge selbst reparieren konnte.",
+      "role": "german",
+      "record_id": "mythos-b1-p0485"
+    },
+    {
+      "paragraph": 486,
+      "text": "彼はさまざまなものを自分で修理できる男性だった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0485"
+    },
+    {
+      "paragraph": 487,
+      "text": "der は男性名詞 Mann を受けて、関係節の主語になっている。",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 488,
+      "text": "4格：die",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 489,
+      "text": "Die Sauna, die mein Mann gebaut hatte, war wunderbar.",
+      "role": "german",
+      "record_id": "mythos-b1-p0489"
+    },
+    {
+      "paragraph": 490,
+      "text": "夫が建てたサウナは素晴らしかった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0489"
+    },
+    {
+      "paragraph": 491,
+      "text": "die は女性名詞 Sauna を受けて、関係節の目的語になっている。",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 492,
+      "text": "3格：in dem",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 493,
+      "text": "Unser Haus war ein Zuhause, in dem ich mich wohlfühlte.",
+      "role": "german",
+      "record_id": "mythos-b1-p0493"
+    },
+    {
+      "paragraph": 494,
+      "text": "私たちの家は、私が心地よく過ごせる住まいだった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0493"
+    },
+    {
+      "paragraph": 495,
+      "text": "in dem は中性名詞 Zuhause を受けている。",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 496,
+      "text": "4格：auf den",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 497,
+      "text": "Er war ein Partner, auf den ich mich verlassen konnte.",
+      "role": "german",
+      "record_id": "mythos-b1-p0497"
+    },
+    {
+      "paragraph": 498,
+      "text": "彼は、私が頼りにできるパートナーだった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0497"
+    },
+    {
+      "paragraph": 499,
+      "text": "sich auf jemanden verlassen は auf + 4格 を使う。",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 500,
+      "text": "男性名詞 Partner を受けるので、auf den になる。",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 501,
+      "text": "大切な語順",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 502,
+      "text": "関係節では、活用した動詞が最後に来る。",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 503,
+      "text": "Er war ein Mann, der mir immer helfen konnte.",
+      "role": "german",
+      "record_id": "mythos-b1-p0503"
+    },
+    {
+      "paragraph": 504,
+      "text": "彼は、いつでも私を助けてくれる男性だった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0503"
+    },
+    {
+      "paragraph": 506,
+      "text": "文法ポイント③ als の二つの意味",
+      "role": "grammar_heading"
+    },
+    {
+      "paragraph": 507,
+      "text": "1. 比較：「〜より」",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 508,
+      "text": "Die Sauna war mir wichtiger als der Rolls-Royce.",
+      "role": "german",
+      "record_id": "mythos-b1-p0508"
+    },
+    {
+      "paragraph": 509,
+      "text": "サウナはロールス・ロイスより大切だった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0508"
+    },
+    {
+      "paragraph": 510,
+      "text": "2. 過去の時点：「〜したとき」",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 511,
+      "text": "Als ich meinen Mann kennenlernte, hatte er schon eine Sauna gebaut.",
+      "role": "german",
+      "record_id": "mythos-b1-p0511"
+    },
+    {
+      "paragraph": 512,
+      "text": "夫と知り合ったとき、彼はすでにサウナを建てていた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0511"
+    },
+    {
+      "paragraph": 513,
+      "text": "時間の als は、過去の一度きりの出来事や時期を表す。",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 514,
+      "text": "この場合、従属節の動詞は最後に来る。",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 516,
+      "text": "音読用・重要3文",
+      "role": "type_heading"
+    },
+    {
+      "paragraph": 517,
+      "text": "Ich wollte lieber eine Sauna als einen Rolls-Royce.",
+      "role": "german",
+      "record_id": "mythos-b1-p0517"
+    },
+    {
+      "paragraph": 518,
+      "text": "私はロールス・ロイスよりサウナが欲しかった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0517"
+    },
+    {
+      "paragraph": 519,
+      "text": "Mein Mann war ein Mensch, auf den ich mich verlassen konnte.",
+      "role": "german",
+      "record_id": "mythos-b1-p0519"
+    },
+    {
+      "paragraph": 520,
+      "text": "夫は、私が頼ることのできる人だった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0519"
+    },
+    {
+      "paragraph": 521,
+      "text": "Ein glückliches Leben war mir wichtiger als ein teures Auto.",
+      "role": "german",
+      "record_id": "mythos-b1-p0521"
+    },
+    {
+      "paragraph": 522,
+      "text": "私にとって幸せな暮らしは、高価な車より大切だった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0521"
+    },
+    {
+      "paragraph": 523,
+      "text": "・・・・・・",
+      "role": "separator"
+    },
+    {
+      "paragraph": 525,
+      "text": "Kapitel 4: Mein Alltag mit meinem attraktiven Mann",
+      "role": "chapter_title_de"
+    },
+    {
+      "paragraph": 526,
+      "text": "第4章　イケオジと暮らすウィーンの日常",
+      "role": "chapter_title_ja"
+    },
+    {
+      "paragraph": 527,
+      "text": "重点文法：Dativ（3格）・Akkusativ（4格）・obwohl・Modalverben",
+      "role": "chapter_grammar"
+    },
+    {
+      "paragraph": 528,
+      "text": "1. Unser gemeinsamer Alltag",
+      "role": "section_title_de"
+    },
+    {
+      "paragraph": 529,
+      "text": "私たちの日常生活",
+      "role": "section_title_ja"
+    },
+    {
+      "paragraph": 530,
+      "text": "Ich lebte mit meinem attraktiven Mann in Wien.",
+      "role": "german",
+      "record_id": "mythos-b1-p0530"
+    },
+    {
+      "paragraph": 531,
+      "text": "私は魅力的な夫とウィーンで暮らしていた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0530"
+    },
+    {
+      "paragraph": 532,
+      "text": "Wir hatten ein schönes Haus, in dem wir uns wohlfühlten.",
+      "role": "german",
+      "record_id": "mythos-b1-p0532"
+    },
+    {
+      "paragraph": 533,
+      "text": "私たちには居心地のよい、素敵な家があった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0532"
+    },
+    {
+      "paragraph": 534,
+      "text": "Mein Mann konnte viele Dinge selbst machen.",
+      "role": "german",
+      "record_id": "mythos-b1-p0534"
+    },
+    {
+      "paragraph": 535,
+      "text": "夫はさまざまなことを自分でこなせた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0534"
+    },
+    {
+      "paragraph": 536,
+      "text": "Er konnte kochen, Dinge reparieren und sogar eine Sauna bauen.",
+      "role": "german",
+      "record_id": "mythos-b1-p0536"
+    },
+    {
+      "paragraph": 537,
+      "text": "彼は料理も修理もできて、サウナまで建てられた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0536"
+    },
+    {
+      "paragraph": 538,
+      "text": "Ich half meinem Mann manchmal beim Kochen.",
+      "role": "german",
+      "record_id": "mythos-b1-p0538"
+    },
+    {
+      "paragraph": 539,
+      "text": "私はときどき夫の料理を手伝った。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0538"
+    },
+    {
+      "paragraph": 540,
+      "text": "Wir bereiteten zusammen das Abendessen zu und sprachen über unseren Tag.",
+      "role": "german",
+      "record_id": "mythos-b1-p0540"
+    },
+    {
+      "paragraph": 541,
+      "text": "私たちは一緒に夕食を作り、その日の出来事について話した。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0540"
+    },
+    {
+      "paragraph": 542,
+      "text": "Obwohl wir unterschiedliche Interessen hatten, verstanden wir uns sehr gut.",
+      "role": "german",
+      "record_id": "mythos-b1-p0542"
+    },
+    {
+      "paragraph": 543,
+      "text": "私たちは興味のあることが違っていても、とても仲がよかった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0542"
+    },
+    {
+      "paragraph": 544,
+      "text": "Ich wollte keinen perfekten Alltag, sondern ein Leben, das zu uns passte.",
+      "role": "german",
+      "record_id": "mythos-b1-p0544"
+    },
+    {
+      "paragraph": 545,
+      "text": "私は完璧な日常ではなく、私たちに合った暮らしを望んでいた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0544"
+    },
+    {
+      "paragraph": 546,
+      "text": "2. Kunst und Philosophie",
+      "role": "section_title_de"
+    },
+    {
+      "paragraph": 547,
+      "text": "美術と哲学",
+      "role": "section_title_ja"
+    },
+    {
+      "paragraph": 548,
+      "text": "Ich interessierte mich für Kunstgeschichte, und mein Mann beschäftigte sich mit Philosophie.",
+      "role": "german",
+      "record_id": "mythos-b1-p0548"
+    },
+    {
+      "paragraph": 549,
+      "text": "私は美術史に興味があり、夫は哲学に取り組んでいた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0548"
+    },
+    {
+      "paragraph": 550,
+      "text": "Wir konnten stundenlang miteinander sprechen.",
+      "role": "german",
+      "record_id": "mythos-b1-p0550"
+    },
+    {
+      "paragraph": 551,
+      "text": "私たちは何時間でも話すことができた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0550"
+    },
+    {
+      "paragraph": 552,
+      "text": "Manchmal erzählte ich meinem Mann von einem Gemälde, das ich im Museum gesehen hatte.",
+      "role": "german",
+      "record_id": "mythos-b1-p0552"
+    },
+    {
+      "paragraph": 553,
+      "text": "ときどき私は、美術館で見た絵画について夫に話した。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0552"
+    },
+    {
+      "paragraph": 554,
+      "text": "Er hörte mir zu und stellte mir interessante Fragen.",
+      "role": "german",
+      "record_id": "mythos-b1-p0554"
+    },
+    {
+      "paragraph": 555,
+      "text": "彼は私の話を聞き、興味深い質問をしてくれた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0554"
+    },
+    {
+      "paragraph": 556,
+      "text": "An anderen Tagen erklärte er mir eine philosophische Idee.",
+      "role": "german",
+      "record_id": "mythos-b1-p0556"
+    },
+    {
+      "paragraph": 557,
+      "text": "別の日には、彼が私に哲学の考え方を説明してくれた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0556"
+    },
+    {
+      "paragraph": 558,
+      "text": "Ich musste nicht immer seiner Meinung sein.",
+      "role": "german",
+      "record_id": "mythos-b1-p0558"
+    },
+    {
+      "paragraph": 559,
+      "text": "私は必ずしも彼と同じ意見である必要はなかった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0558"
+    },
+    {
+      "paragraph": 560,
+      "text": "Trotzdem konnten wir ruhig und offen miteinander diskutieren.",
+      "role": "german",
+      "record_id": "mythos-b1-p0560"
+    },
+    {
+      "paragraph": 561,
+      "text": "それでも私たちは、落ち着いて率直に議論できた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0560"
+    },
+    {
+      "paragraph": 562,
+      "text": "Obwohl unsere Themen manchmal kompliziert waren, machten mir die Gespräche Spaß.",
+      "role": "german",
+      "record_id": "mythos-b1-p0562"
+    },
+    {
+      "paragraph": 563,
+      "text": "話題はときどき難しかったけれど、私は会話を楽しんだ。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0562"
+    },
+    {
+      "paragraph": 564,
+      "text": "Ab und zu gingen wir zusammen in ein Museum in der Wiener Innenstadt.",
+      "role": "german",
+      "record_id": "mythos-b1-p0564"
+    },
+    {
+      "paragraph": 565,
+      "text": "私たちはときどき一緒にウィーンの都心の美術館へ行った。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0564"
+    },
+    {
+      "paragraph": 566,
+      "text": "Dort konnte ich die Kunst genießen und ihm meine Lieblingswerke zeigen.",
+      "role": "german",
+      "record_id": "mythos-b1-p0566"
+    },
+    {
+      "paragraph": 567,
+      "text": "そこでは私は美術を楽しみ、夫にお気に入りの作品を見せることができた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0566"
+    },
+    {
+      "paragraph": 568,
+      "text": "3. Seine wunderschöne Stimme",
+      "role": "section_title_de"
+    },
+    {
+      "paragraph": 569,
+      "text": "夫の素晴らしい声",
+      "role": "section_title_ja"
+    },
+    {
+      "paragraph": 570,
+      "text": "Mein Mann hatte eine wunderschöne Stimme.",
+      "role": "german",
+      "record_id": "mythos-b1-p0570"
+    },
+    {
+      "paragraph": 571,
+      "text": "夫は素晴らしい声の持ち主だった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0570"
+    },
+    {
+      "paragraph": 572,
+      "text": "Ich hörte ihm besonders gern zu, wenn er sprach.",
+      "role": "german",
+      "record_id": "mythos-b1-p0572"
+    },
+    {
+      "paragraph": 573,
+      "text": "私は彼が話しているとき、特に喜んで耳を傾けた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0572"
+    },
+    {
+      "paragraph": 574,
+      "text": "Aber er sprach oft Wiener Dialekt.",
+      "role": "german",
+      "record_id": "mythos-b1-p0574"
+    },
+    {
+      "paragraph": 575,
+      "text": "でも彼はよくウィーン方言を話した。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0574"
+    },
+    {
+      "paragraph": 576,
+      "text": "Obwohl ich schon Deutsch lernte, konnte ich nicht immer alles verstehen.",
+      "role": "german",
+      "record_id": "mythos-b1-p0576"
+    },
+    {
+      "paragraph": 577,
+      "text": "私はすでにドイツ語を勉強していたけれど、いつもすべてを理解できるわけではなかった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0576"
+    },
+    {
+      "paragraph": 578,
+      "text": "Manchmal musste ich ihn bitten, langsamer zu sprechen.",
+      "role": "german",
+      "record_id": "mythos-b1-p0578"
+    },
+    {
+      "paragraph": 579,
+      "text": "ときどき私は、もっとゆっくり話してほしいと彼に頼まなければならなかった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0578"
+    },
+    {
+      "paragraph": 580,
+      "text": "Er konnte mir die Wörter dann auf Hochdeutsch erklären.",
+      "role": "german",
+      "record_id": "mythos-b1-p0580"
+    },
+    {
+      "paragraph": 581,
+      "text": "すると彼は、その単語を標準ドイツ語で説明してくれた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0580"
+    },
+    {
+      "paragraph": 582,
+      "text": "Ich wollte meinen Mann nicht nur hören, sondern auch wirklich verstehen.",
+      "role": "german",
+      "record_id": "mythos-b1-p0582"
+    },
+    {
+      "paragraph": 583,
+      "text": "私は夫の声を聞くだけでなく、彼の言うことを本当に理解したかった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0582"
+    },
+    {
+      "paragraph": 584,
+      "text": "Deshalb lernte ich jeden Tag ein bisschen Deutsch.",
+      "role": "german",
+      "record_id": "mythos-b1-p0584"
+    },
+    {
+      "paragraph": 585,
+      "text": "だから私は毎日少しずつドイツ語を勉強した。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0584"
+    },
+    {
+      "paragraph": 586,
+      "text": "4. Unser Hund hatte andere Pläne",
+      "role": "section_title_de"
+    },
+    {
+      "paragraph": 587,
+      "text": "犬には別の予定があった",
+      "role": "section_title_ja"
+    },
+    {
+      "paragraph": 588,
+      "text": "Unser Hund war ein Border Collie, der sehr aufmerksam war.",
+      "role": "german",
+      "record_id": "mythos-b1-p0588"
+    },
+    {
+      "paragraph": 589,
+      "text": "うちの犬は、とても注意深いボーダーコリーだった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0588"
+    },
+    {
+      "paragraph": 590,
+      "text": "Leider war er manchmal viel zu aufmerksam.",
+      "role": "german",
+      "record_id": "mythos-b1-p0590"
+    },
+    {
+      "paragraph": 591,
+      "text": "残念ながら、注意深すぎることがあった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0590"
+    },
+    {
+      "paragraph": 592,
+      "text": "Wenn draußen eine Katze vorbeiging, bellte er laut.",
+      "role": "german",
+      "record_id": "mythos-b1-p0592"
+    },
+    {
+      "paragraph": 593,
+      "text": "外を猫が通ると、犬は大声で吠えた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0592"
+    },
+    {
+      "paragraph": 594,
+      "text": "Auch bei Kirchenglocken, Krähen und Motorrädern konnte er nicht ruhig bleiben.",
+      "role": "german",
+      "record_id": "mythos-b1-p0594"
+    },
+    {
+      "paragraph": 595,
+      "text": "教会の鐘やカラス、バイクに対しても、静かにしていられなかった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0594"
+    },
+    {
+      "paragraph": 596,
+      "text": "Ich sagte meinem Hund, dass er nicht bellen musste.",
+      "role": "german",
+      "record_id": "mythos-b1-p0596"
+    },
+    {
+      "paragraph": 597,
+      "text": "私は犬に、吠える必要はないと言った。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0596"
+    },
+    {
+      "paragraph": 598,
+      "text": "Aber mein Hund hörte mir nicht immer zu.",
+      "role": "german",
+      "record_id": "mythos-b1-p0598"
+    },
+    {
+      "paragraph": 599,
+      "text": "でも犬は、いつも私の言うことを聞いてくれるわけではなかった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0598"
+    },
+    {
+      "paragraph": 600,
+      "text": "Obwohl draußen keine Gefahr bestand, wollte er unser Haus unbedingt bewachen.",
+      "role": "german",
+      "record_id": "mythos-b1-p0600"
+    },
+    {
+      "paragraph": 601,
+      "text": "外には何の危険もなかったのに、犬はどうしても家を警備したがった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0600"
+    },
+    {
+      "paragraph": 602,
+      "text": "Manchmal konnte ich wegen des Bellens nicht in Ruhe lernen.",
+      "role": "german",
+      "record_id": "mythos-b1-p0602"
+    },
+    {
+      "paragraph": 603,
+      "text": "ときどき私は吠え声のせいで、落ち着いて勉強できなかった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0602"
+    },
+    {
+      "paragraph": 604,
+      "text": "Mein Mann blieb oft ruhiger als ich.",
+      "role": "german",
+      "record_id": "mythos-b1-p0604"
+    },
+    {
+      "paragraph": 605,
+      "text": "夫は私より落ち着いていることが多かった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0604"
+    },
+    {
+      "paragraph": 606,
+      "text": "Ich dagegen wollte einfach nur ein bisschen Ruhe haben.",
+      "role": "german",
+      "record_id": "mythos-b1-p0606"
+    },
+    {
+      "paragraph": 607,
+      "text": "一方、私はただ少し静かにしてほしかった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0606"
+    },
+    {
+      "paragraph": 608,
+      "text": "5. Ein glückliches Leben",
+      "role": "section_title_de"
+    },
+    {
+      "paragraph": 609,
+      "text": "幸せな暮らし",
+      "role": "section_title_ja"
+    },
+    {
+      "paragraph": 610,
+      "text": "Natürlich war unser Alltag nicht immer perfekt.",
+      "role": "german",
+      "record_id": "mythos-b1-p0610"
+    },
+    {
+      "paragraph": 611,
+      "text": "もちろん、私たちの日常がいつも完璧だったわけではなかった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0610"
+    },
+    {
+      "paragraph": 612,
+      "text": "Manchmal war das Wetter schlecht, und manchmal bellte der Hund zu viel.",
+      "role": "german",
+      "record_id": "mythos-b1-p0612"
+    },
+    {
+      "paragraph": 613,
+      "text": "天気の悪い日もあれば、犬が吠えすぎる日もあった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0612"
+    },
+    {
+      "paragraph": 614,
+      "text": "Aber ich konnte mit meinem Mann lachen, lernen und neue Dinge entdecken.",
+      "role": "german",
+      "record_id": "mythos-b1-p0614"
+    },
+    {
+      "paragraph": 615,
+      "text": "でも私は夫と一緒に笑い、学び、新しいことを発見できた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0614"
+    },
+    {
+      "paragraph": 616,
+      "text": "Ich musste nicht jeden Tag etwas Besonderes erleben, um glücklich zu sein.",
+      "role": "german",
+      "record_id": "mythos-b1-p0616"
+    },
+    {
+      "paragraph": 617,
+      "text": "幸せになるために、毎日特別なことを経験する必要はなかった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0616"
+    },
+    {
+      "paragraph": 618,
+      "text": "Oft reichte es schon, mit meinem attraktiven Mann zu Hause zu sein.",
+      "role": "german",
+      "record_id": "mythos-b1-p0618"
+    },
+    {
+      "paragraph": 619,
+      "text": "魅力的な夫と家で一緒に過ごすだけで、十分なことも多かった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0618"
+    },
+    {
+      "paragraph": 621,
+      "text": "重要表現",
+      "role": "type_heading"
+    },
+    {
+      "paragraph": 622,
+      "text": "mit meinem Mann",
+      "role": "german",
+      "record_id": "mythos-b1-p0622"
+    },
+    {
+      "paragraph": 623,
+      "text": "夫と一緒に。（mit ＋ 3格）",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0622"
+    },
+    {
+      "paragraph": 624,
+      "text": "meinem Mann helfen",
+      "role": "german",
+      "record_id": "mythos-b1-p0624"
+    },
+    {
+      "paragraph": 625,
+      "text": "夫を手伝う。（helfen ＋ 3格）",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0624"
+    },
+    {
+      "paragraph": 626,
+      "text": "meinem Mann etwas erzählen",
+      "role": "german",
+      "record_id": "mythos-b1-p0626"
+    },
+    {
+      "paragraph": 627,
+      "text": "夫に何かを話す。（erzählen ＋ 3格）",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0626"
+    },
+    {
+      "paragraph": 628,
+      "text": "meinen Mann verstehen",
+      "role": "german",
+      "record_id": "mythos-b1-p0628"
+    },
+    {
+      "paragraph": 629,
+      "text": "夫を理解する。（verstehen ＋ 4格）",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0628"
+    },
+    {
+      "paragraph": 630,
+      "text": "meinen Mann bitten",
+      "role": "german",
+      "record_id": "mythos-b1-p0630"
+    },
+    {
+      "paragraph": 631,
+      "text": "夫に頼む。（bitten ＋ 4格）",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0630"
+    },
+    {
+      "paragraph": 632,
+      "text": "jemandem zuhören",
+      "role": "german",
+      "record_id": "mythos-b1-p0632"
+    },
+    {
+      "paragraph": 633,
+      "text": "誰かの話を聞く。（zuhören ＋ 3格）",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0632"
+    },
+    {
+      "paragraph": 634,
+      "text": "in Ruhe lernen",
+      "role": "german",
+      "record_id": "mythos-b1-p0634"
+    },
+    {
+      "paragraph": 635,
+      "text": "落ち着いて勉強する。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0634"
+    },
+    {
+      "paragraph": 637,
+      "text": "文法ポイント① Dativ（3格）とAkkusativ（4格）",
+      "role": "grammar_heading"
+    },
+    {
+      "paragraph": 638,
+      "text": "ドイツ語では、同じ「夫」でも、文の中での役割によって形が変わる。",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 639,
+      "text": "Dativ：3格",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 640,
+      "text": "Ich half meinem attraktiven Mann.",
+      "role": "german",
+      "record_id": "mythos-b1-p0640"
+    },
+    {
+      "paragraph": 641,
+      "text": "私は魅力的な夫を手伝った。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0640"
+    },
+    {
+      "paragraph": 642,
+      "text": "helfen は3格を使う動詞。",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 643,
+      "text": "Ich erzählte meinem attraktiven Mann eine Geschichte.",
+      "role": "german",
+      "record_id": "mythos-b1-p0643"
+    },
+    {
+      "paragraph": 644,
+      "text": "私は魅力的な夫に物語を話した。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0643"
+    },
+    {
+      "paragraph": 645,
+      "text": "erzählen では、「誰に」が3格、「何を」が4格になる。",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 646,
+      "text": "Ich sprach mit meinem attraktiven Mann.",
+      "role": "german",
+      "record_id": "mythos-b1-p0646"
+    },
+    {
+      "paragraph": 647,
+      "text": "私は魅力的な夫と話した。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0646"
+    },
+    {
+      "paragraph": 648,
+      "text": "mit は必ず3格を使う前置詞。",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 649,
+      "text": "Akkusativ：4格",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 650,
+      "text": "Ich liebte meinen attraktiven Mann.",
+      "role": "german",
+      "record_id": "mythos-b1-p0650"
+    },
+    {
+      "paragraph": 651,
+      "text": "私は魅力的な夫を愛していた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0650"
+    },
+    {
+      "paragraph": 652,
+      "text": "lieben は4格を使う。",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 653,
+      "text": "Ich verstand meinen attraktiven Mann nicht immer.",
+      "role": "german",
+      "record_id": "mythos-b1-p0653"
+    },
+    {
+      "paragraph": 654,
+      "text": "私は魅力的な夫の言うことを、いつも理解できるわけではなかった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0653"
+    },
+    {
+      "paragraph": 655,
+      "text": "verstehen も4格を使う。",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 656,
+      "text": "Ich küsste meinen attraktiven Mann.",
+      "role": "german",
+      "record_id": "mythos-b1-p0656"
+    },
+    {
+      "paragraph": 657,
+      "text": "私は魅力的な夫にキスした。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0656"
+    },
+    {
+      "paragraph": 658,
+      "text": "küssen も4格を使う。",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 659,
+      "text": "覚え方",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 660,
+      "text": "meinem attraktiven Mann",
+      "role": "german",
+      "record_id": "mythos-b1-p0660"
+    },
+    {
+      "paragraph": 661,
+      "text": "3格：「夫に」「夫と」",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0660"
+    },
+    {
+      "paragraph": 662,
+      "text": "meinen attraktiven Mann",
+      "role": "german",
+      "record_id": "mythos-b1-p0662"
+    },
+    {
+      "paragraph": 663,
+      "text": "4格：「夫を」",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0662"
+    },
+    {
+      "paragraph": 664,
+      "text": "ただし、日本語の「に」「を」だけで機械的には判断できない。helfen、zuhören、verstehen のように、動詞と必要な格をセットで覚えよう。",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 666,
+      "text": "文法ポイント② obwohl（〜にもかかわらず）",
+      "role": "grammar_heading"
+    },
+    {
+      "paragraph": 667,
+      "text": "obwohl は、予想とは反対のことが起きるときに使う接続詞。",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 668,
+      "text": "Obwohl mein Mann Wiener Dialekt sprach, hörte ich ihm gern zu.",
+      "role": "german",
+      "record_id": "mythos-b1-p0668"
+    },
+    {
+      "paragraph": 669,
+      "text": "夫はウィーン方言を話していたけれど、私は喜んで彼の話を聞いた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0668"
+    },
+    {
+      "paragraph": 670,
+      "text": "Obwohl draußen keine Gefahr bestand, bellte unser Hund.",
+      "role": "german",
+      "record_id": "mythos-b1-p0670"
+    },
+    {
+      "paragraph": 671,
+      "text": "外には何の危険もなかったのに、うちの犬は吠えた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0670"
+    },
+    {
+      "paragraph": 672,
+      "text": "Ich war glücklich, obwohl nicht jeder Tag perfekt war.",
+      "role": "german",
+      "record_id": "mythos-b1-p0672"
+    },
+    {
+      "paragraph": 673,
+      "text": "毎日が完璧だったわけではないけれど、私は幸せだった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0672"
+    },
+    {
+      "paragraph": 674,
+      "text": "obwohl の節では、活用した動詞が最後に来る。",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 675,
+      "text": "weil が「〜だから」と理由を示すのに対し、obwohl は「〜なのに」という逆接を示す。",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 677,
+      "text": "文法ポイント③ Modalverben（話法の助動詞）",
+      "role": "grammar_heading"
+    },
+    {
+      "paragraph": 678,
+      "text": "話法の助動詞は、「できる」「したい」「しなければならない」などを表す。",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 679,
+      "text": "können → konnte",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 680,
+      "text": "Ich konnte mit meinem Mann über Philosophie sprechen.",
+      "role": "german",
+      "record_id": "mythos-b1-p0680"
+    },
+    {
+      "paragraph": 681,
+      "text": "私は夫と哲学について話すことができた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0680"
+    },
+    {
+      "paragraph": 682,
+      "text": "wollen → wollte",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 683,
+      "text": "Ich wollte meinen Mann besser verstehen.",
+      "role": "german",
+      "record_id": "mythos-b1-p0683"
+    },
+    {
+      "paragraph": 684,
+      "text": "私は夫の言うことをもっと理解したかった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0683"
+    },
+    {
+      "paragraph": 685,
+      "text": "müssen → musste",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 686,
+      "text": "Ich musste jeden Tag Deutsch lernen.",
+      "role": "german",
+      "record_id": "mythos-b1-p0686"
+    },
+    {
+      "paragraph": 687,
+      "text": "私は毎日ドイツ語を勉強しなければならなかった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0686"
+    },
+    {
+      "paragraph": 688,
+      "text": "dürfen → durfte",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 689,
+      "text": "Ich durfte meine eigene Meinung sagen.",
+      "role": "german",
+      "record_id": "mythos-b1-p0689"
+    },
+    {
+      "paragraph": 690,
+      "text": "私は自分の意見を言うことが許されていた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0689"
+    },
+    {
+      "paragraph": 691,
+      "text": "sollen → sollte",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 692,
+      "text": "Ich sollte mehr Deutsch sprechen.",
+      "role": "german",
+      "record_id": "mythos-b1-p0692"
+    },
+    {
+      "paragraph": 693,
+      "text": "私はもっとドイツ語を話すべきだった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0692"
+    },
+    {
+      "paragraph": 694,
+      "text": "mögen → mochte",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 695,
+      "text": "Ich mochte unsere gemeinsamen Gespräche.",
+      "role": "german",
+      "record_id": "mythos-b1-p0695"
+    },
+    {
+      "paragraph": 696,
+      "text": "私は二人で交わす会話が好きだった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0695"
+    },
+    {
+      "paragraph": 697,
+      "text": "大切な語順",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 698,
+      "text": "話法の助動詞があるとき、もう一つの動詞は通常、不定形で文末に来る。",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 699,
+      "text": "Ich konnte meinen Mann nicht immer verstehen.",
+      "role": "german",
+      "record_id": "mythos-b1-p0699"
+    },
+    {
+      "paragraph": 700,
+      "text": "私は夫の言うことを、いつも理解できるわけではなかった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0699"
+    },
+    {
+      "paragraph": 701,
+      "text": "Ich wollte mit meinem Mann sprechen.",
+      "role": "german",
+      "record_id": "mythos-b1-p0701"
+    },
+    {
+      "paragraph": 702,
+      "text": "私は夫と話したかった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0701"
+    },
+    {
+      "paragraph": 704,
+      "text": "音読用・重要4文",
+      "role": "type_heading"
+    },
+    {
+      "paragraph": 705,
+      "text": "Ich half meinem attraktiven Mann beim Kochen.",
+      "role": "german",
+      "record_id": "mythos-b1-p0705"
+    },
+    {
+      "paragraph": 706,
+      "text": "私は魅力的な夫の料理を手伝った。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0705"
+    },
+    {
+      "paragraph": 707,
+      "text": "Ich liebte meinen attraktiven Mann.",
+      "role": "german",
+      "record_id": "mythos-b1-p0707"
+    },
+    {
+      "paragraph": 708,
+      "text": "私は魅力的な夫を愛していた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0707"
+    },
+    {
+      "paragraph": 709,
+      "text": "Obwohl ich seinen Wiener Dialekt nicht immer verstand, hörte ich ihm gern zu.",
+      "role": "german",
+      "record_id": "mythos-b1-p0709"
+    },
+    {
+      "paragraph": 710,
+      "text": "ウィーン方言をいつも理解できるわけではなかったけれど、私は喜んで夫の話に耳を傾けた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0709"
+    },
+    {
+      "paragraph": 711,
+      "text": "Mein Hund musste nicht bellen, aber er wollte unbedingt bellen.",
+      "role": "german",
+      "record_id": "mythos-b1-p0711"
+    },
+    {
+      "paragraph": 712,
+      "text": "犬は吠える必要などなかったのに、どうしても吠えたがった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0711"
+    },
+    {
+      "paragraph": 714,
+      "text": "・・・・・・・",
+      "role": "separator"
+    },
+    {
+      "paragraph": 716,
+      "text": "Kapitel 5: Meine Reise war noch nicht zu Ende",
+      "role": "chapter_title_de"
+    },
+    {
+      "paragraph": 717,
+      "text": "第5章　幸せだけど、旅はまだ終わらない",
+      "role": "chapter_title_ja"
+    },
+    {
+      "paragraph": 718,
+      "text": "重点文法：Perfekt・Präteritumの復習、um ... zu、dass",
+      "role": "chapter_grammar"
+    },
+    {
+      "paragraph": 719,
+      "text": "1. Ich hatte mein Glück gefunden",
+      "role": "section_title_de"
+    },
+    {
+      "paragraph": 720,
+      "text": "私は幸せを見つけていた",
+      "role": "section_title_ja"
+    },
+    {
+      "paragraph": 721,
+      "text": "Früher reiste ich viel, weil ich die Welt kennenlernen wollte.",
+      "role": "german",
+      "record_id": "mythos-b1-p0721"
+    },
+    {
+      "paragraph": 722,
+      "text": "以前、私は世界を知りたくて、よく旅をしていた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0721"
+    },
+    {
+      "paragraph": 723,
+      "text": "Ich besuchte verschiedene Länder, um neue Orte und Kulturen zu entdecken.",
+      "role": "german",
+      "record_id": "mythos-b1-p0723"
+    },
+    {
+      "paragraph": 724,
+      "text": "私は新しい場所や文化を発見するために、さまざまな国を訪れた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0723"
+    },
+    {
+      "paragraph": 725,
+      "text": "Besonders gern ging ich in Thermen und Saunen.",
+      "role": "german",
+      "record_id": "mythos-b1-p0725"
+    },
+    {
+      "paragraph": 726,
+      "text": "私は特に温泉やサウナへ行くのが好きだった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0725"
+    },
+    {
+      "paragraph": 727,
+      "text": "Auf meinen Reisen habe ich viele schöne Orte gesehen.",
+      "role": "german",
+      "record_id": "mythos-b1-p0727"
+    },
+    {
+      "paragraph": 728,
+      "text": "旅を通して、私はたくさんの美しい場所を見てきた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0727"
+    },
+    {
+      "paragraph": 729,
+      "text": "Aber damals wusste ich noch nicht, wo ich eines Tages zu Hause sein würde.",
+      "role": "german",
+      "record_id": "mythos-b1-p0729"
+    },
+    {
+      "paragraph": 730,
+      "text": "でも当時は、いつか自分がどこに暮らすことになるのか、まだ知らなかった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0729"
+    },
+    {
+      "paragraph": 731,
+      "text": "Dann lernte ich meinen zukünftigen Mann kennen.",
+      "role": "german",
+      "record_id": "mythos-b1-p0731"
+    },
+    {
+      "paragraph": 732,
+      "text": "そして私は、将来の夫と出会った。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0731"
+    },
+    {
+      "paragraph": 733,
+      "text": "Er war ein intelligenter, freundlicher und attraktiver Philosoph.",
+      "role": "german",
+      "record_id": "mythos-b1-p0733"
+    },
+    {
+      "paragraph": 734,
+      "text": "彼は知的で、優しく、魅力的な哲学者だった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0733"
+    },
+    {
+      "paragraph": 735,
+      "text": "Wir verliebten uns, und später heirateten wir.",
+      "role": "german",
+      "record_id": "mythos-b1-p0735"
+    },
+    {
+      "paragraph": 736,
+      "text": "私たちは恋に落ち、その後結婚した。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0735"
+    },
+    {
+      "paragraph": 737,
+      "text": "Mit ihm fand ich ein Leben, das gut zu mir passte.",
+      "role": "german",
+      "record_id": "mythos-b1-p0737"
+    },
+    {
+      "paragraph": 738,
+      "text": "彼とともに、私は自分に合った暮らしを見つけた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0737"
+    },
+    {
+      "paragraph": 739,
+      "text": "2. Ein schönes Zuhause",
+      "role": "section_title_de"
+    },
+    {
+      "paragraph": 740,
+      "text": "心地よい我が家",
+      "role": "section_title_ja"
+    },
+    {
+      "paragraph": 741,
+      "text": "Heute lebe ich mit meinem Mann in Wien.",
+      "role": "german",
+      "record_id": "mythos-b1-p0741"
+    },
+    {
+      "paragraph": 742,
+      "text": "今、私は夫とウィーンで暮らしている。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0741"
+    },
+    {
+      "paragraph": 743,
+      "text": "Wir haben ein Haus, in dem ich mich sehr wohlfühle.",
+      "role": "german",
+      "record_id": "mythos-b1-p0743"
+    },
+    {
+      "paragraph": 744,
+      "text": "私たちには、私がとても心地よく過ごせる家がある。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0743"
+    },
+    {
+      "paragraph": 745,
+      "text": "Mein Mann hat selbst eine Sauna gebaut.",
+      "role": "german",
+      "record_id": "mythos-b1-p0745"
+    },
+    {
+      "paragraph": 746,
+      "text": "夫は自分の手でサウナを建てた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0745"
+    },
+    {
+      "paragraph": 747,
+      "text": "Er hat auch einen Platz eingerichtet, an dem ich Luftakrobatik trainieren kann.",
+      "role": "german",
+      "record_id": "mythos-b1-p0747"
+    },
+    {
+      "paragraph": 748,
+      "text": "夫は、私がエアリアルシルクを練習できる場所も作ってくれた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0747"
+    },
+    {
+      "paragraph": 749,
+      "text": "Ich bin sehr dankbar, dass er meine Interessen ernst nimmt.",
+      "role": "german",
+      "record_id": "mythos-b1-p0749"
+    },
+    {
+      "paragraph": 750,
+      "text": "夫が私の関心事を大切にしてくれることを、とてもありがたく思っている。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0749"
+    },
+    {
+      "paragraph": 751,
+      "text": "Ich habe viel Freiheit, um mich mit Kunstgeschichte und Sprachen zu beschäftigen.",
+      "role": "german",
+      "record_id": "mythos-b1-p0751"
+    },
+    {
+      "paragraph": 752,
+      "text": "私は美術史や語学に取り組むための自由な時間をたくさん持っている。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0751"
+    },
+    {
+      "paragraph": 753,
+      "text": "Manchmal verbringe ich einen ganzen Tag zu Hause und lerne Deutsch.",
+      "role": "german",
+      "record_id": "mythos-b1-p0753"
+    },
+    {
+      "paragraph": 754,
+      "text": "ときには一日中家で過ごし、ドイツ語を勉強する。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0753"
+    },
+    {
+      "paragraph": 755,
+      "text": "An anderen Tagen gehe ich in ein Museum oder genieße unsere Sauna.",
+      "role": "german",
+      "record_id": "mythos-b1-p0755"
+    },
+    {
+      "paragraph": 756,
+      "text": "別の日には、美術館へ行ったり、自宅のサウナを楽しんだりする。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0755"
+    },
+    {
+      "paragraph": 757,
+      "text": "Ich weiß, dass ich ein sehr glückliches Leben führe.",
+      "role": "german",
+      "record_id": "mythos-b1-p0757"
+    },
+    {
+      "paragraph": 758,
+      "text": "私は自分がとても幸せな生活を送っているとわかっている。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0757"
+    },
+    {
+      "paragraph": 759,
+      "text": "3. Trotzdem wollte ich mehr sehen",
+      "role": "section_title_de"
+    },
+    {
+      "paragraph": 760,
+      "text": "それでも、もっと見たいものがあった",
+      "role": "section_title_ja"
+    },
+    {
+      "paragraph": 761,
+      "text": "Aber glücklich zu sein bedeutet nicht, dass man keine Wünsche mehr hat.",
+      "role": "german",
+      "record_id": "mythos-b1-p0761"
+    },
+    {
+      "paragraph": 762,
+      "text": "でも、幸せであることは、もう何も望まないという意味ではない。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0761"
+    },
+    {
+      "paragraph": 763,
+      "text": "Ich liebe unser Zuhause, aber ich möchte auch weiterhin reisen.",
+      "role": "german",
+      "record_id": "mythos-b1-p0763"
+    },
+    {
+      "paragraph": 764,
+      "text": "私は自宅が大好きだけれど、これからも旅を続けたい。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0763"
+    },
+    {
+      "paragraph": 765,
+      "text": "Ich möchte neue Städte besuchen, um ihre Geschichte und Architektur kennenzulernen.",
+      "role": "german",
+      "record_id": "mythos-b1-p0765"
+    },
+    {
+      "paragraph": 766,
+      "text": "新しい街の歴史や建築を知るために、まだ訪れたことのない街へ行きたい。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0765"
+    },
+    {
+      "paragraph": 767,
+      "text": "Ich möchte unbekannte Gerichte probieren und mit Menschen aus anderen Ländern sprechen.",
+      "role": "german",
+      "record_id": "mythos-b1-p0767"
+    },
+    {
+      "paragraph": 768,
+      "text": "知らない料理を味わい、ほかの国の人々と話してみたい。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0767"
+    },
+    {
+      "paragraph": 769,
+      "text": "Und natürlich möchte ich noch viele Thermen und Saunen entdecken.",
+      "role": "german",
+      "record_id": "mythos-b1-p0769"
+    },
+    {
+      "paragraph": 770,
+      "text": "そしてもちろん、これからもたくさんの温泉やサウナを発見したい。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0769"
+    },
+    {
+      "paragraph": 771,
+      "text": "Ich habe schon viele Länder besucht, aber es gibt noch so viel zu sehen.",
+      "role": "german",
+      "record_id": "mythos-b1-p0771"
+    },
+    {
+      "paragraph": 772,
+      "text": "私はすでに多くの国を訪れたけれど、まだ見るべきものがたくさんある。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0771"
+    },
+    {
+      "paragraph": 773,
+      "text": "Zum Beispiel war ich noch nie in Vientiane oder Luang Prabang in Laos.",
+      "role": "german",
+      "record_id": "mythos-b1-p0773"
+    },
+    {
+      "paragraph": 774,
+      "text": "例えば、ラオスのビエンチャンやルアンパバーンにはまだ一度も行ったことがない。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0773"
+    },
+    {
+      "paragraph": 775,
+      "text": "Auch die weißen Kalkterrassen von Pamukkale möchte ich eines Tages sehen.",
+      "role": "german",
+      "record_id": "mythos-b1-p0775"
+    },
+    {
+      "paragraph": 776,
+      "text": "パムッカレの白い石灰棚も、いつか見てみたい。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0775"
+    },
+    {
+      "paragraph": 777,
+      "text": "Und sogar in der Nähe von Wien gibt es Thermalbäder, die ich noch nicht besucht habe.",
+      "role": "german",
+      "record_id": "mythos-b1-p0777"
+    },
+    {
+      "paragraph": 778,
+      "text": "そしてウィーンの近くにさえ、まだ訪れていない温泉施設がある。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0777"
+    },
+    {
+      "paragraph": 779,
+      "text": "Ich muss nicht immer weit reisen, um etwas Neues zu erleben.",
+      "role": "german",
+      "record_id": "mythos-b1-p0779"
+    },
+    {
+      "paragraph": 780,
+      "text": "新しい体験をするために、いつも遠くへ旅する必要はない。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0779"
+    },
+    {
+      "paragraph": 781,
+      "text": "4. Was bedeutet Glück für mich?",
+      "role": "section_title_de"
+    },
+    {
+      "paragraph": 782,
+      "text": "私にとって幸福とは？",
+      "role": "section_title_ja"
+    },
+    {
+      "paragraph": 783,
+      "text": "Früher dachte ich manchmal, dass ich erst etwas Besonderes erreichen musste, um glücklich zu sein.",
+      "role": "german",
+      "record_id": "mythos-b1-p0783"
+    },
+    {
+      "paragraph": 784,
+      "text": "以前は、幸せになるためには、まず何か特別なことを成し遂げなければならないと思うこともあった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0783"
+    },
+    {
+      "paragraph": 785,
+      "text": "Heute glaube ich, dass Glück auch im normalen Alltag zu finden ist.",
+      "role": "german",
+      "record_id": "mythos-b1-p0785"
+    },
+    {
+      "paragraph": 786,
+      "text": "今では、幸福は普通の日常の中にも見つけられると思っている。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0785"
+    },
+    {
+      "paragraph": 787,
+      "text": "Ein gutes Gespräch mit meinem Mann kann mich glücklich machen.",
+      "role": "german",
+      "record_id": "mythos-b1-p0787"
+    },
+    {
+      "paragraph": 788,
+      "text": "夫との楽しい会話は、私を幸せにしてくれる。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0787"
+    },
+    {
+      "paragraph": 789,
+      "text": "Auch ein warmes Bad, ein interessantes Buch oder ein Besuch im Museum können mir Freude machen.",
+      "role": "german",
+      "record_id": "mythos-b1-p0789"
+    },
+    {
+      "paragraph": 790,
+      "text": "温かいお風呂、面白い本、美術館への訪問も私に喜びを与えてくれる。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0789"
+    },
+    {
+      "paragraph": 791,
+      "text": "Manchmal bin ich sogar glücklich, wenn ich einfach in meinem warmen Bett liege.",
+      "role": "german",
+      "record_id": "mythos-b1-p0791"
+    },
+    {
+      "paragraph": 792,
+      "text": "ただ温かい布団の中で寝転がっているだけでも、幸せなことがある。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0791"
+    },
+    {
+      "paragraph": 793,
+      "text": "Ich brauche nicht ständig neue Dinge, um zufrieden zu sein.",
+      "role": "german",
+      "record_id": "mythos-b1-p0793"
+    },
+    {
+      "paragraph": 794,
+      "text": "満足するために、いつも新しい物を手に入れる必要はない。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0793"
+    },
+    {
+      "paragraph": 795,
+      "text": "Aber ich möchte neugierig bleiben, um noch mehr von der Welt zu entdecken.",
+      "role": "german",
+      "record_id": "mythos-b1-p0795"
+    },
+    {
+      "paragraph": 796,
+      "text": "それでも、世界をもっと発見するために、好奇心を持ち続けたい。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0795"
+    },
+    {
+      "paragraph": 797,
+      "text": "Ich habe den Mann meiner Träume gefunden und mir ein schönes Leben aufgebaut.",
+      "role": "german",
+      "record_id": "mythos-b1-p0797"
+    },
+    {
+      "paragraph": 798,
+      "text": "私は理想の男性を見つけ、素敵な暮らしを築いてきた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0797"
+    },
+    {
+      "paragraph": 799,
+      "text": "Doch meine Reise ist noch lange nicht zu Ende.",
+      "role": "german",
+      "record_id": "mythos-b1-p0799"
+    },
+    {
+      "paragraph": 800,
+      "text": "でも、私の旅はまだまだ終わらない。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0799"
+    },
+    {
+      "paragraph": 802,
+      "text": "重要表現",
+      "role": "type_heading"
+    },
+    {
+      "paragraph": 803,
+      "text": "die Welt kennenlernen",
+      "role": "german",
+      "record_id": "mythos-b1-p0803"
+    },
+    {
+      "paragraph": 804,
+      "text": "世界を知る。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0803"
+    },
+    {
+      "paragraph": 805,
+      "text": "neue Orte entdecken",
+      "role": "german",
+      "record_id": "mythos-b1-p0805"
+    },
+    {
+      "paragraph": 806,
+      "text": "新しい場所を発見する。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0805"
+    },
+    {
+      "paragraph": 807,
+      "text": "ein glückliches Leben führen",
+      "role": "german",
+      "record_id": "mythos-b1-p0807"
+    },
+    {
+      "paragraph": 808,
+      "text": "幸せな生活を送る。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0807"
+    },
+    {
+      "paragraph": 809,
+      "text": "sich mit etwas beschäftigen",
+      "role": "german",
+      "record_id": "mythos-b1-p0809"
+    },
+    {
+      "paragraph": 810,
+      "text": "何かに取り組む。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0809"
+    },
+    {
+      "paragraph": 811,
+      "text": "neugierig bleiben",
+      "role": "german",
+      "record_id": "mythos-b1-p0811"
+    },
+    {
+      "paragraph": 812,
+      "text": "好奇心を持ち続ける。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0811"
+    },
+    {
+      "paragraph": 813,
+      "text": "sich ein Leben aufbauen",
+      "role": "german",
+      "record_id": "mythos-b1-p0813"
+    },
+    {
+      "paragraph": 814,
+      "text": "自分の暮らしを築く。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0813"
+    },
+    {
+      "paragraph": 815,
+      "text": "noch lange nicht zu Ende sein",
+      "role": "german",
+      "record_id": "mythos-b1-p0815"
+    },
+    {
+      "paragraph": 816,
+      "text": "まだまだ終わっていない。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0815"
+    },
+    {
+      "paragraph": 818,
+      "text": "文法ポイント① PerfektとPräteritumの復習",
+      "role": "grammar_heading"
+    },
+    {
+      "paragraph": 819,
+      "text": "ドイツ語には、過去の出来事を表す主な方法が二つある。",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 820,
+      "text": "Präteritum は、物語や書き言葉でよく使われる過去形。",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 821,
+      "text": "Perfekt は、日常会話でよく使われる過去形。",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 822,
+      "text": "ただし、sein、haben、話法の助動詞などは、会話でもPräteritumがよく使われる。",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 823,
+      "text": "Präteritum",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 824,
+      "text": "Früher reiste ich viel.",
+      "role": "german",
+      "record_id": "mythos-b1-p0824"
+    },
+    {
+      "paragraph": 825,
+      "text": "以前、私はよく旅をしていた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0824"
+    },
+    {
+      "paragraph": 826,
+      "text": "Ich besuchte viele Thermen.",
+      "role": "german",
+      "record_id": "mythos-b1-p0826"
+    },
+    {
+      "paragraph": 827,
+      "text": "私はたくさんの温泉を訪れた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0826"
+    },
+    {
+      "paragraph": 828,
+      "text": "Ich wusste noch nicht, wo ich leben würde.",
+      "role": "german",
+      "record_id": "mythos-b1-p0828"
+    },
+    {
+      "paragraph": 829,
+      "text": "私はまだ、自分がどこに住むことになるのか知らなかった。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0828"
+    },
+    {
+      "paragraph": 830,
+      "text": "Perfekt",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 831,
+      "text": "Ich bin viel gereist.",
+      "role": "german",
+      "record_id": "mythos-b1-p0831"
+    },
+    {
+      "paragraph": 832,
+      "text": "私はたくさん旅をしてきた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0831"
+    },
+    {
+      "paragraph": 833,
+      "text": "Ich habe viele Thermen besucht.",
+      "role": "german",
+      "record_id": "mythos-b1-p0833"
+    },
+    {
+      "paragraph": 834,
+      "text": "私はたくさんの温泉を訪れた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0833"
+    },
+    {
+      "paragraph": 835,
+      "text": "Mein Mann hat eine Sauna gebaut.",
+      "role": "german",
+      "record_id": "mythos-b1-p0835"
+    },
+    {
+      "paragraph": 836,
+      "text": "夫はサウナを建てた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0835"
+    },
+    {
+      "paragraph": 837,
+      "text": "Perfektの基本形",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 838,
+      "text": "haben / sein ＋ Partizip II（過去分詞）",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 839,
+      "text": "reisen → ist gereist",
+      "role": "german",
+      "record_id": "mythos-b1-p0839"
+    },
+    {
+      "paragraph": 840,
+      "text": "旅をした。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0839"
+    },
+    {
+      "paragraph": 841,
+      "text": "besuchen → hat besucht",
+      "role": "german",
+      "record_id": "mythos-b1-p0841"
+    },
+    {
+      "paragraph": 842,
+      "text": "訪問した。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0841"
+    },
+    {
+      "paragraph": 843,
+      "text": "bauen → hat gebaut",
+      "role": "german",
+      "record_id": "mythos-b1-p0843"
+    },
+    {
+      "paragraph": 844,
+      "text": "建てた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0843"
+    },
+    {
+      "paragraph": 845,
+      "text": "finden → hat gefunden",
+      "role": "german",
+      "record_id": "mythos-b1-p0845"
+    },
+    {
+      "paragraph": 846,
+      "text": "見つけた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0845"
+    },
+    {
+      "paragraph": 847,
+      "text": "gehen → ist gegangen",
+      "role": "german",
+      "record_id": "mythos-b1-p0847"
+    },
+    {
+      "paragraph": 848,
+      "text": "行った。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0847"
+    },
+    {
+      "paragraph": 849,
+      "text": "※ reisen は通常、移動を表すとき sein と組み合わせる。",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 850,
+      "text": "同じ出来事を二つの過去形で",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 851,
+      "text": "Präteritum",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 852,
+      "text": "Ich lernte meinen Mann kennen.",
+      "role": "german",
+      "record_id": "mythos-b1-p0852"
+    },
+    {
+      "paragraph": 853,
+      "text": "私は夫と知り合った。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0852"
+    },
+    {
+      "paragraph": 854,
+      "text": "Perfekt",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 855,
+      "text": "Ich habe meinen Mann kennengelernt.",
+      "role": "german",
+      "record_id": "mythos-b1-p0855"
+    },
+    {
+      "paragraph": 856,
+      "text": "私は夫と知り合った。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0855"
+    },
+    {
+      "paragraph": 857,
+      "text": "どちらも過去の出来事を表す。日常会話ではPerfektが自然な場合が多く、物語文ではPräteritumがよく使われる。",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 859,
+      "text": "文法ポイント② um ... zu",
+      "role": "grammar_heading"
+    },
+    {
+      "paragraph": 860,
+      "text": "um ... zu ＋ 動詞の不定形 は「〜するために」という目的を表す。",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 861,
+      "text": "例文",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 862,
+      "text": "Ich reiste nach Laos, um neue Orte kennenzulernen.",
+      "role": "german",
+      "record_id": "mythos-b1-p0862"
+    },
+    {
+      "paragraph": 863,
+      "text": "私は新しい場所を知るためにラオスへ旅行した。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0862"
+    },
+    {
+      "paragraph": 864,
+      "text": "Ich lernte Deutsch, um besser mit meinem Mann sprechen zu können.",
+      "role": "german",
+      "record_id": "mythos-b1-p0864"
+    },
+    {
+      "paragraph": 865,
+      "text": "私は夫ともっと上手に話せるようになるために、ドイツ語を勉強した。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0864"
+    },
+    {
+      "paragraph": 866,
+      "text": "Ich ging in die Sauna, um mich zu entspannen.",
+      "role": "german",
+      "record_id": "mythos-b1-p0866"
+    },
+    {
+      "paragraph": 867,
+      "text": "私はリラックスするためにサウナへ行った。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0866"
+    },
+    {
+      "paragraph": 868,
+      "text": "大切なポイント",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 869,
+      "text": "um ... zu は、基本的に主節と目的を表す部分の主語が同じときに使う。",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 870,
+      "text": "Ich lernte Deutsch, um mit meinem Mann zu sprechen.",
+      "role": "german",
+      "record_id": "mythos-b1-p0870"
+    },
+    {
+      "paragraph": 871,
+      "text": "私は夫と話すためにドイツ語を勉強した。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0870"
+    },
+    {
+      "paragraph": 872,
+      "text": "「勉強する」のも「話す」のも私。",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 873,
+      "text": "また、話法の助動詞を使う場合は、次の形になる。",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 874,
+      "text": "um ... sprechen zu können",
+      "role": "german",
+      "record_id": "mythos-b1-p0874"
+    },
+    {
+      "paragraph": 875,
+      "text": "話せるようになるために。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0874"
+    },
+    {
+      "paragraph": 877,
+      "text": "文法ポイント③ dass",
+      "role": "grammar_heading"
+    },
+    {
+      "paragraph": 878,
+      "text": "dass は「〜ということ」を表す接続詞。",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 879,
+      "text": "dass で始まる従属節では、活用した動詞が最後に来る。",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 880,
+      "text": "例文",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 881,
+      "text": "Ich weiß, dass ich glücklich bin.",
+      "role": "german",
+      "record_id": "mythos-b1-p0881"
+    },
+    {
+      "paragraph": 882,
+      "text": "私は自分が幸せだとわかっている。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0881"
+    },
+    {
+      "paragraph": 883,
+      "text": "Ich glaube, dass mein Mann ein wunderbarer Mensch ist.",
+      "role": "german",
+      "record_id": "mythos-b1-p0883"
+    },
+    {
+      "paragraph": 884,
+      "text": "私は夫が素晴らしい人だと思っている。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0883"
+    },
+    {
+      "paragraph": 885,
+      "text": "Ich finde es schön, dass wir zusammen reisen können.",
+      "role": "german",
+      "record_id": "mythos-b1-p0885"
+    },
+    {
+      "paragraph": 886,
+      "text": "私たちが一緒に旅行できることを、私は素敵だと思う。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0885"
+    },
+    {
+      "paragraph": 887,
+      "text": "dass と das の違い",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 888,
+      "text": "dass は接続詞で、「〜ということ」。",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 889,
+      "text": "das は冠詞や代名詞として使われる。",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 890,
+      "text": "Ich weiß, dass das Haus schön ist.",
+      "role": "german",
+      "record_id": "mythos-b1-p0890"
+    },
+    {
+      "paragraph": 891,
+      "text": "私はその家が美しいことを知っている。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0890"
+    },
+    {
+      "paragraph": 892,
+      "text": "この文では、最初の dass が接続詞、次の das が Haus に付く定冠詞。",
+      "role": "grammar_note"
+    },
+    {
+      "paragraph": 894,
+      "text": "音読用・重要4文",
+      "role": "type_heading"
+    },
+    {
+      "paragraph": 895,
+      "text": "Ich habe den Mann meiner Träume gefunden.",
+      "role": "german",
+      "record_id": "mythos-b1-p0895"
+    },
+    {
+      "paragraph": 896,
+      "text": "私は理想の男性を見つけた。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0895"
+    },
+    {
+      "paragraph": 897,
+      "text": "Ich lernte Deutsch, um besser mit meinem Mann sprechen zu können.",
+      "role": "german",
+      "record_id": "mythos-b1-p0897"
+    },
+    {
+      "paragraph": 898,
+      "text": "私は夫ともっと上手に話せるようになるために、ドイツ語を勉強した。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0897"
+    },
+    {
+      "paragraph": 899,
+      "text": "Ich weiß, dass Glück auch im Alltag zu finden ist.",
+      "role": "german",
+      "record_id": "mythos-b1-p0899"
+    },
+    {
+      "paragraph": 900,
+      "text": "私は、幸福が日常の中にも見つけられると知っている。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0899"
+    },
+    {
+      "paragraph": 901,
+      "text": "Ich bin glücklich, aber meine Reise ist noch lange nicht zu Ende.",
+      "role": "german",
+      "record_id": "mythos-b1-p0901"
+    },
+    {
+      "paragraph": 902,
+      "text": "私は幸せだ。でも、私の旅はまだまだ終わらない。",
+      "role": "japanese",
+      "record_id": "mythos-b1-p0901"
+    }
+  ]
+}
