@@ -39,3 +39,11 @@
 
 .mobile-account-button{display:none}
 @media(max-width:850px){header{height:auto;min-height:58px;flex-wrap:wrap;gap:8px;padding:12px 0}.mobile-account-button{display:inline-block;font-size:12px;padding:5px 10px}}
+
+.card-audio-options{display:flex;align-items:center;flex-wrap:wrap;gap:.5rem .75rem;margin:.6rem 0}
+.card-audio-options label{display:flex;align-items:center;gap:.4rem;margin:0}
+.card-audio-options select{width:auto}
+.card-audio-options input[type=checkbox]{width:auto;margin:0}
+.card-audio-options button,.library-speaker{min-height:44px}
+.library-speaker{min-width:44px;margin-inline-end:.5rem}
+#library-audio-note:empty,#audio-note:empty{display:none}

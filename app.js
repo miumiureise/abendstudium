@@ -1,4 +1,5 @@
-import {loadProfessorAudio, playProfessorFeedback} from './professor-audio.js';
+import {cardAudio, loadCardAudio, loadProfessorAudio, playProfessorFeedback} from './professor-audio.js';
+import {createCardPlayback} from './card-playback.js';
 import {createSpeechTools} from './speech.js';
 import {createLiterature} from './literature.js';
 import {freshLiterature,validateLiterature} from './literature-core.js';
@@ -11,6 +12,9 @@ const fresh=()=>({version:1,literature:freshLiterature(),cards:seeds.map(c=>({..
 let state=fresh(),client=null,user=null,revision=0,busy=false,current=null,authEpoch=0,cloudReady=false,professorFeedback=null;
 const speech=createSpeechTools();
 void loadProfessorAudio();
+void loadCardAudio();
+const cardPlayback=createCardPlayback({speech,findRecording:cardAudio,language:()=>state.settings.language});
+const playbackOptions={rate:1,repeat:false};
 let literature=null;
 const localKey='abendstudium-demo-v1';
 try{const stored=localStorage.getItem(localKey);if(stored)state=validateState(JSON.parse(stored));}catch{toast('端末データを読み込めませんでした。バックアップがあれば復元してください。');}
@@ -18,13 +22,12 @@ function toast(message){$('#toast').textContent=message;$('#toast').hidden=false
 function validateState(data){if(data?.version!==1)throw Error('対応していないJSON形式です');const cards=validateCards(data.cards);const ids=new Set();cards.forEach((c,i)=>{const s=data.cards[i];if(typeof s.id!=='string'||ids.has(s.id)||!Number.isFinite(Date.parse(s.due))||!Number.isFinite(s.interval)||s.interval<0||!Number.isInteger(s.reviews)||s.reviews<0)throw Error('復習データが不正です');ids.add(s.id);Object.assign(c,{id:s.id,due:s.due,interval:s.interval,reviews:s.reviews});});if(!Array.isArray(data.history)||!Array.isArray(data.practice)||!Number.isInteger(data.settings?.daily)||data.settings.daily<1||data.settings.daily>100)throw Error('履歴・設定が不正です');for(const h of data.history)if(!h||!Number.isFinite(Date.parse(h.at))||typeof h.cardId!=='string'||!['again','hard','good'].includes(h.grade))throw Error('学習履歴が不正です');for(const p of data.practice)if(!p||!Number.isFinite(Date.parse(p.at))||typeof p.cardId!=='string'||typeof p.transcript!=='string'||!Number.isFinite(p.score)||p.score<0||p.score>100)throw Error('練習履歴が不正です');return {...data,version:1,literature:validateLiterature(data.literature),cards,history:data.history,practice:data.practice,settings:{daily:data.settings.daily,language:data.settings.language==='de-DE'?'de-DE':'de-AT'}};}
 async function save(next){if(busy)throw Error('保存中です。少しお待ちください。');busy=true;const epoch=authEpoch;try{if(user){if(!cloudReady)throw Error('クラウドの読込が完了していません。再読み込みしてください');const {data,error}=await client.rpc('save_study_state',{payload:next,expected_revision:revision});if(error)throw Error(error.code==='40001'?'別の端末で更新されました。ページを再読み込みしてください。':error.message);if(epoch!==authEpoch)throw Error('アカウントが変更されました');revision=data;}else localStorage.setItem(localKey,JSON.stringify(next));state=next;render();}finally{busy=false;}}
 function guard(fn){return async e=>{try{await fn(e);}catch(error){toast(error.message||'操作に失敗しました');}};}
-function stopAudio(){speech.stopAudio();}
+function stopAudio(){cardPlayback.stop();}
 function stopSpeech(){speech.stopRecognition();$('#mic').textContent='♩ マイクで練習';}
-async function play(path){stopAudio();stopSpeech();if(!path){toast('この音声は準備中です。音声ファイルを追加すると再生できます。');return;}try{await speech.playFile(path);}catch{toast('音声を再生できません。ファイルのパスと通信状態をご確認ください。');}}
 function el(tag,text,cls){const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;}
 function showPage(name){stopAudio();stopSpeech();$$('.page').forEach(p=>p.hidden=p.id!==name);$$('[data-page]').forEach(b=>b.classList.toggle('active',b.dataset.page===name));render();if(name==='literature')void literature.open();window.scrollTo(0,0);}
 $$('[data-page]').forEach(b=>b.onclick=()=>showPage(b.dataset.page));$$('[data-close]').forEach(b=>b.onclick=()=>$('#'+b.dataset.close).close());
-function render(){const queue=dueCards(state),next=queue[0]||null;if(current?.id!==next?.id){if(!$('#lesson').hidden){stopAudio();stopSpeech();}$('#transcript').value='';$('#result').replaceChildren();$('#japanese').hidden=true;$('#toggle-translation').setAttribute('aria-expanded','false');$('#toggle-translation').textContent='日本語訳を表示 ＋';professorFeedback=null;$('#grammar-notes').open=false;}current=next;$('#due-count').textContent=state.cards.filter(c=>new Date(c.due)<=new Date()).length;$('#done-count').textContent=new Set(state.history.filter(h=>dayKey(h.at)===dayKey()).map(h=>h.cardId)).size;$('#daily-count').textContent=state.settings.daily;$('#daily').value=state.settings.daily;$('#language').value=state.settings.language;$('#study-content').hidden=!current;$('#lesson-assessment').hidden=!current;$('#empty').hidden=!!current;$('#lesson-completion-audio').hidden=!!current;if(current)$('#lesson-completion-audio').replaceChildren();$('#card-category').textContent=current?`${current.level} · ${current.category||'未分類'}`:'WUNDERBAR';$('#card-index').textContent=current?`このレッスン 残り ${queue.length} 文`:'';['play','mic','compare','transcript'].forEach(id=>$('#'+id).disabled=!current);if(current){for(const k of ['german','japanese','grammar','vocabulary'])$('#'+k).textContent=current[k];$('#audio-note').textContent=current.audio?'事前録音のお手本音声':'お手本音声は準備中';$('#hard-interval').textContent=`約${Math.round(schedule(current,'hard').interval)}日後`;$('#good-interval').textContent=`約${Math.round(schedule(current,'good').interval)}日後`;}renderProfessor();renderLibrary();renderProgress();literature?.refresh();}
+function render(){const queue=dueCards(state),next=queue[0]||null;if(current?.id!==next?.id||current?.german!==next?.german){$('#audio-note').textContent='';if(!$('#lesson').hidden){stopAudio();stopSpeech();}$('#transcript').value='';$('#result').replaceChildren();$('#japanese').hidden=true;$('#toggle-translation').setAttribute('aria-expanded','false');$('#toggle-translation').textContent='日本語訳を表示 ＋';professorFeedback=null;$('#grammar-notes').open=false;}current=next;$('#due-count').textContent=state.cards.filter(c=>new Date(c.due)<=new Date()).length;$('#done-count').textContent=new Set(state.history.filter(h=>dayKey(h.at)===dayKey()).map(h=>h.cardId)).size;$('#daily-count').textContent=state.settings.daily;$('#daily').value=state.settings.daily;$('#language').value=state.settings.language;$('#study-content').hidden=!current;$('#lesson-assessment').hidden=!current;$('#empty').hidden=!!current;$('#lesson-completion-audio').hidden=!!current;if(current)$('#lesson-completion-audio').replaceChildren();$('#card-category').textContent=current?`${current.level} · ${current.category||'未分類'}`:'WUNDERBAR';$('#card-index').textContent=current?`このレッスン 残り ${queue.length} 文`:'';['play','mic','compare','transcript'].forEach(id=>$('#'+id).disabled=!current);if(current){for(const k of ['german','japanese','grammar','vocabulary'])$('#'+k).textContent=current[k];$('#hard-interval').textContent=`約${Math.round(schedule(current,'hard').interval)}日後`;$('#good-interval').textContent=`約${Math.round(schedule(current,'good').interval)}日後`;}renderProfessor();renderLibrary();renderProgress();literature?.refresh();}
 
 // Keep expression and dialogue together, including empty queues on initial load.
 function renderProfessor(){
@@ -39,11 +42,29 @@ function renderProfessor(){
 $('#grammar-notes').addEventListener('toggle',()=>{professorFeedback=null;renderProfessor();});
 
 $('#toggle-translation').onclick=()=>{const hidden=!$('#japanese').hidden;$('#japanese').hidden=hidden;$('#toggle-translation').setAttribute('aria-expanded',String(!hidden));$('#toggle-translation').textContent=hidden?'日本語訳を表示 ＋':'日本語訳を隠す −';};
-$('#play').onclick=()=>current&&play(current.audio);
+function playCard(card,note){
+ if(!card)return;
+ void cardPlayback.play(card,{...playbackOptions,report:message=>{$(note).textContent=message;}});
+}
+$('#play').onclick=()=>playCard(current,'#audio-note');
+$$('[data-card-rate]').forEach(select=>{select.onchange=()=>{
+ stopAudio();
+ playbackOptions.rate=Number(select.value);
+ $$('[data-card-rate]').forEach(control=>{control.value=select.value;});
+};});
+$$('[data-card-repeat]').forEach(input=>{input.onchange=()=>{
+ stopAudio();
+ playbackOptions.repeat=input.checked;
+ $$('[data-card-repeat]').forEach(control=>{control.checked=input.checked;});
+};});
+$$('[data-card-stop]').forEach(button=>{button.onclick=()=>{
+ stopAudio();
+ $(button.closest('#library')?'#library-audio-note':'#audio-note').textContent='読み上げを停止しました。';
+};});
 $$('[data-grade]').forEach(b=>b.onclick=guard(async()=>{if(!current)return;const epoch=authEpoch,next=structuredClone(state),card=next.cards.find(c=>c.id===current.id),updated=schedule(card,b.dataset.grade);Object.assign(card,updated);next.history.push({id:crypto.randomUUID(),cardId:card.id,german:card.german,grade:b.dataset.grade,at:new Date().toISOString(),due:card.due});await save(next);toast('復習予定を保存しました');if(epoch===authEpoch&&!current&&!$('#lesson').hidden){const container=$('#lesson-completion-audio');container.replaceChildren();playProfessorFeedback({category:'completion',speech,container});}}));
 if(!speech.recognitionSupported)$('#speech-help').textContent='このブラウザでは音声認識を開始できません。下の入力欄を選び、キーボードの音声入力をご利用ください。';
 $('#mic').onclick=()=>{
- if(speech.recognizing){stopSpeech();return;}const cardId=current?.id,epoch=authEpoch;
+ if(speech.recognizing){stopSpeech();return;}stopAudio();const cardId=current?.id,epoch=authEpoch;
  try{speech.startRecognition({lang:$('#language').value,
   onStatus:active=>{$('#mic').textContent=active?'■ 認識を停止':'♩ マイクで練習';},
   onError:toast,
@@ -53,9 +74,36 @@ $('#mic').onclick=()=>{
 async function evaluate(source){try{if(!current||busy)return;const text=$('#transcript').value.trim();if(!text)throw Error('ドイツ語を入力してください');if(text.length>2000)throw Error('入力は2000文字以内です');const result=compare(current.german,text),node=$('#result');node.replaceChildren(el('p',`音声認識結果の一致度 ${result.score}%`,'score'));const diff=el('div',undefined,'diff');result.diff.forEach(d=>{const token=el('span',d.expected||'（追加）','token'+(d.ok?'':' miss'));if(!d.ok)token.append(el('small',`入力：${d.actual||'（なし）'}`));diff.append(token);});node.append(diff,el('p',result.match?professor.lines.praise:professor.lines.retry));professorFeedback=result.match?'praise':'retry';renderProfessor();playProfessorFeedback({category:result.match?'praise':'encouragement',speech,container:node,fallbackPath:professor.audio[result.match?'praise':'retry']});const next=structuredClone(state);next.practice.push({id:crypto.randomUUID(),cardId:current.id,german:current.german,transcript:text,score:result.score,match:result.match,language:$('#language').value,source,at:new Date().toISOString()});await save(next);node.append(el('small',user?'練習結果をSupabaseに保存しました':'練習結果をこの端末に保存しました'));}catch(e){toast(e.message);$('#result').append(el('p','練習結果は未保存です。通信状態などを確認して、再度比較してください。'));}}
 $('#compare').onclick=()=>evaluate('input');
 $('#language').onchange=guard(async()=>{stopSpeech();const next=structuredClone(state);next.settings.language=$('#language').value;await save(next);});
-function renderLibrary(){const filter=$('#category-filter'),selected=filter.value;filter.replaceChildren(new Option('すべてのカテゴリー',''));[...new Set(state.cards.map(c=>c.category||'未分類'))].sort().forEach(c=>filter.add(new Option(c,c)));filter.value=selected;const query=$('#search').value.toLowerCase();const cards=state.cards.filter(c=>(!filter.value||(c.category||'未分類')===filter.value)&&(c.german+' '+c.japanese).toLowerCase().includes(query));$('#card-list').replaceChildren();cards.forEach(c=>{const box=el('article',undefined,'library-card');box.append(el('small',`${c.level} · ${c.category||'未分類'} · 次回 ${new Date(c.due).toLocaleString('ja-JP')}`),el('h2',c.german),el('p',c.japanese));const button=el('button','編集する');button.onclick=()=>edit(c);box.append(button);$('#card-list').append(box);});if(!cards.length)$('#card-list').append(el('p','該当する例文はありません。'));}
+function renderLibrary(){
+ const filter=$('#category-filter');
+ const selected=filter.value;
+ filter.replaceChildren(new Option('すべてのカテゴリー',''));
+ [...new Set(state.cards.map(c=>c.category||'未分類'))].sort().forEach(c=>filter.add(new Option(c,c)));
+ filter.value=selected;
+ const query=$('#search').value.toLowerCase();
+ const cards=state.cards.filter(c=>(!filter.value||(c.category||'未分類')===filter.value)
+   && (c.german+' '+c.japanese).toLowerCase().includes(query));
+ const list=$('#card-list');
+ list.replaceChildren();
+ for(const card of cards){
+  const box=el('article',undefined,'library-card');
+  const heading=el('h2',card.german);
+  heading.lang='de';
+  box.append(el('small',`${card.level} · ${card.category||'未分類'} · 次回 ${new Date(card.due).toLocaleString('ja-JP')}`),
+    heading,el('p',card.japanese));
+  const speaker=el('button','🔊','audio-button library-speaker');
+  speaker.type='button';
+  speaker.setAttribute('aria-label',`例文を聴く：${card.german}`);
+  speaker.onclick=()=>playCard(card,'#library-audio-note');
+  const editButton=el('button','編集する');
+  editButton.onclick=()=>edit(card);
+  box.append(speaker,editButton);
+  list.append(box);
+ }
+ if(!cards.length)list.append(el('p','該当する例文はありません。'));
+}
 $('#search').oninput=renderLibrary;$('#category-filter').onchange=renderLibrary;
-function edit(card={}){const form=$('#card-form');form.reset();for(const k of ['id','german','japanese','grammar','vocabulary','category','level','audio'])form.elements[k].value=card[k]||(k==='level'?'B1':'');$('#editor').showModal();}
+function edit(card={}){stopAudio();const form=$('#card-form');form.reset();for(const k of ['id','german','japanese','grammar','vocabulary','category','level','audio'])form.elements[k].value=card[k]||(k==='level'?'B1':'');$('#editor').showModal();}
 $('#new-card').onclick=()=>edit();
 $('#card-form').onsubmit=guard(async e=>{e.preventDefault();const data=Object.fromEntries(new FormData(e.target)),[card]=validateCards([data]),next=structuredClone(state);if(data.id){Object.assign(next.cards.find(c=>c.id===data.id),card);}else{if(next.cards.length>=2000)throw Error('例文は2000件までです');next.cards.push({...card,id:crypto.randomUUID(),due:new Date().toISOString(),interval:0,reviews:0});}await save(next);$('#editor').close();toast('例文を保存しました');});
 function renderProgress(){const root=$('#progress-summary');root.replaceChildren();[['登録例文',state.cards.length],['復習回数',state.history.length],['発音練習',state.practice.length]].forEach(([label,n])=>{const d=el('div');d.append(el('strong',n),el('span',label));root.append(d);});$('#week').replaceChildren();for(let i=6;i>=0;i--){const date=new Date();date.setDate(date.getDate()-i);const key=dayKey(date),n=state.history.filter(h=>dayKey(h.at)===key).length;const d=el('div',undefined,'day');d.append(el('span',date.toLocaleDateString('ja-JP',{month:'numeric',day:'numeric'})),el('strong',n),el('span','回'));$('#week').append(d);}$('#history').replaceChildren();const events=[...state.history.map(h=>({...h,type:'review'})),...state.practice.map(p=>({...p,type:'practice'}))].sort((a,b)=>b.at.localeCompare(a.at)).slice(0,50);events.forEach(h=>{const row=el('div',undefined,'history-row');row.append(el('div',h.german||'例文'),el('small',`${new Date(h.at).toLocaleString('ja-JP')} · ${h.type==='practice'?`認識一致度 ${h.score}%`:({again:'忘れた',hard:'少し迷った',good:'覚えていた'})[h.grade]}`));$('#history').append(row);});if(!events.length)$('#history').append(el('p','学習の記録は、ここに積み重なっていきます。'));}

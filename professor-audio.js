@@ -1,6 +1,8 @@
 // Optional manifest emitted by the local audio generator. Paths are relative to audio/.
 let entries = {};
 let request;
+let cardRequest;
+const cardRecordings = new Map();
 
 export function loadProfessorAudio() {
   request ??= fetch('./audio/manifest.json', {cache: 'no-cache'})
@@ -15,6 +17,35 @@ function readyPath(entry) {
     /^(novel\/chapter_\d+\/|praise\/|encouragement\/|completion\/)[A-Za-z0-9_-]+\.mp3$/.test(entry.path)
     ? './audio/' + entry.path
     : '';
+}
+
+export function loadCardAudio() {
+  cardRequest ??= fetch('./audio/cards-manifest.json', {cache: 'no-cache'})
+    .then(response => response.ok ? response.json() : null)
+    .then(data => {
+      if (data?.version !== 1) return;
+      for (const entry of Object.values(data.entries ?? {})) {
+        if (entry?.status === 'ready' && entry.category === 'card' &&
+            typeof entry.text === 'string' && /^cards\/card-[a-f0-9]{64}\.mp3$/.test(entry.path)) {
+          cardRecordings.set(entry.text, './audio/' + entry.path);
+        }
+      }
+    })
+    .catch(() => { cardRequest = undefined; });
+  return cardRequest;
+}
+
+export function cardAudio(german) {
+  const recorded = cardRecordings.get(german);
+  if (recorded) return recorded;
+  // Imported copies of a novel sentence can also reuse its exact recording.
+  for (const entry of Object.values(entries)) {
+    if (entry?.category === 'novel' && entry.text === german) {
+      const path = readyPath(entry);
+      if (path) return path;
+    }
+  }
+  return '';
 }
 
 export function novelAudio(record) {

@@ -89,22 +89,26 @@ export function createSpeechTools(env = window) {
     if (session) throw Error('マイクの終了処理中です。少し待ってから、音声をもう一度再生してください。');
   }
 
-  async function playFile(path, rate = 1) {
+  async function playFile(path, rate = 1, { repeat = false } = {}) {
     preparePlayback();
     const item = new env.Audio(path);
     audio = item;
     item.preservesPitch = true;
     item.playbackRate = rate;
+    item.loop = repeat;
     item.onended = () => { if (audio === item) releaseAudio(); };
     try {
       await item.play();
     } catch (error) {
-      if (audio === item) releaseAudio();
+      if (audio !== item) {
+        throw new DOMException('再生を停止しました。', 'AbortError');
+      }
+      releaseAudio();
       throw error;
     }
   }
 
-  function speak(text, { lang = 'de-AT', rate = 1, onError = () => {}, onVoice = () => {} } = {}) {
+  function speak(text, { lang = 'de-AT', rate = 1, repeat = false, onError = () => {}, onVoice = () => {} } = {}) {
     preparePlayback();
     if (!env.speechSynthesis || !env.SpeechSynthesisUtterance) {
       throw Error('このブラウザでは読み上げを利用できません。');
@@ -113,22 +117,29 @@ export function createSpeechTools(env = window) {
     const voice = voices.find(v => v.lang.toLowerCase() === lang.toLowerCase())
       || voices.find(v => v.lang.toLowerCase() === 'de-de')
       || voices.find(v => /^de[-_]/i.test(v.lang));
-    const item = new env.SpeechSynthesisUtterance(text);
-    utterance = item;
-    item.lang = voice?.lang || lang;
-    item.voice = voice || null;
-    item.rate = rate;
-    item.onerror = event => {
-      if (utterance !== item) return;
-      utterance = null;
-      if (!['canceled', 'interrupted'].includes(event.error)) {
-        onError('読み上げを開始できません。端末のドイツ語音声と音量をご確認ください。');
-      }
-    };
-    item.onend = () => { if (utterance === item) utterance = null; };
+    function say() {
+      const item = new env.SpeechSynthesisUtterance(text);
+      utterance = item;
+      item.lang = voice?.lang || lang;
+      item.voice = voice || null;
+      item.rate = rate;
+      item.onerror = event => {
+        if (utterance !== item) return;
+        utterance = null;
+        if (!['canceled', 'interrupted'].includes(event.error)) {
+          onError('読み上げを開始できません。端末のドイツ語音声と音量をご確認ください。');
+        }
+      };
+      item.onend = () => {
+        if (utterance !== item) return;
+        utterance = null;
+        if (repeat) say();
+      };
+      env.speechSynthesis.speak(item);
+    }
     onVoice(voice ? `${voice.name}（${voice.lang}）`
       : '端末の標準音声（ドイツ語音声が未取得の場合は端末設定をご確認ください）');
-    env.speechSynthesis.speak(item);
+    say();
   }
 
   function startRecognition({ lang = 'de-AT', onResult, onStatus = () => {}, onError = () => {} }) {
