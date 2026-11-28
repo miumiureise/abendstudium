@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "entries": {
+    "card-895ace28186632e9d9e4e5d68a717484e924f0c5a848fee10c932e34d5e99c83": {
+      "category": "card",
+      "status": "ready",
+      "path": "cards/card-895ace28186632e9d9e4e5d68a717484e924f0c5a848fee10c932e34d5e99c83.mp3",
+      "text": "Obwohl ich wenig Zeit habe, lerne ich jeden Tag ein bisschen Deutsch.",
+      "duration_seconds": 4.48
+    },
+    "card-c75aaccdb5bf1eb4725b608bd6ba301d682e127b6b8bdc4ba7f7d79e66a1e2b9": {
+      "category": "card",
+      "status": "ready",
+      "path": "cards/card-c75aaccdb5bf1eb4725b608bd6ba301d682e127b6b8bdc4ba7f7d79e66a1e2b9.mp3",
+      "text": "Könnten Sie mir bitte sagen, wann der nächste Zug nach Wien fährt?",
+      "duration_seconds": 4.56
+    },
+    "card-be4b368fd2b5bbd9f6ed20beafc1ec4f5d34abbc2ef836a97c6e1199d8463669": {
+      "category": "card",
+      "status": "ready",
+      "path": "cards/card-be4b368fd2b5bbd9f6ed20beafc1ec4f5d34abbc2ef836a97c6e1199d8463669.mp3",
+      "text": "Wenn ich mehr Zeit hätte, würde ich öfter ins Museum gehen.",
+      "duration_seconds": 4.16
+    },
+    "card-bbdb4554e6c779274f933415e917bed9292f0cbe6608aad9cc5923223e96800b": {
+      "category": "card",
+      "status": "ready",
+      "path": "cards/card-bbdb4554e6c779274f933415e917bed9292f0cbe6608aad9cc5923223e96800b.mp3",
+      "text": "Ich freue mich darauf, Sie persönlich kennenzulernen.",
+      "duration_seconds": 3.04
+    },
+    "card-a32b148f1fe401e664764d575e7c5a84024c7b8e3ff36f9f9ed5b0663851958e": {
+      "category": "card",
+      "status": "ready",
+      "path": "cards/card-a32b148f1fe401e664764d575e7c5a84024c7b8e3ff36f9f9ed5b0663851958e.mp3",
+      "text": "Seitdem ich in Österreich wohne, fahre ich häufiger mit öffentlichen Verkehrsmitteln.",
+      "duration_seconds": 5.12
+    },
+    "card-66ec4c9ee20c40d485c52325e667592775b5c30325f19cde9ae23a78deba597c": {
+      "category": "card",
+      "status": "ready",
+      "path": "cards/card-66ec4c9ee20c40d485c52325e667592775b5c30325f19cde9ae23a78deba597c.mp3",
+      "text": "An Ihrer Stelle würde ich mich rechtzeitig um einen Termin kümmern.",
+      "duration_seconds": 4.08
+    },
+    "card-b4f92f6668959a29fc59849ad81079daf137b40228b1a26ce9e7de902dbfa967": {
+      "category": "card",
+      "status": "ready",
+      "path": "cards/card-b4f92f6668959a29fc59849ad81079daf137b40228b1a26ce9e7de902dbfa967.mp3",
+      "text": "Je regelmäßiger man übt, desto sicherer wird man beim Sprechen.",
+      "duration_seconds": 4.56
+    },
+    "card-0c6448d40446b4e4502bc5ef501a3aaf663f684a598a41c3bbcdab5b32040f1e": {
+      "category": "card",
+      "status": "ready",
+      "path": "cards/card-0c6448d40446b4e4502bc5ef501a3aaf663f684a598a41c3bbcdab5b32040f1e.mp3",
+      "text": "Die Unterlagen müssen bis Freitag eingereicht werden.",
+      "duration_seconds": 3.2
+    },
+    "card-67ac723a26c4194bcf9bbd09f500f41f03b54d463190d4a5519ecc181d1dbca7": {
+      "category": "card",
+      "status": "ready",
+      "path": "cards/card-67ac723a26c4194bcf9bbd09f500f41f03b54d463190d4a5519ecc181d1dbca7.mp3",
+      "text": "Es kommt darauf an, welche Erfahrungen Sie bereits gesammelt haben.",
+      "duration_seconds": 5.28
+    },
+    "card-381d07bdbdcfde862edbba00fbff10cf5b30f09214ffbaf5fed8e56a4b016371": {
+      "category": "card",
+      "status": "ready",
+      "path": "cards/card-381d07bdbdcfde862edbba00fbff10cf5b30f09214ffbaf5fed8e56a4b016371.mp3",
+      "text": "Trotz des schlechten Wetters haben wir einen Spaziergang gemacht.",
+      "duration_seconds": 3.68
+    },
+    "card-1379e38c684290c795280f5675426a0f1b3f4934fb6a8e342b9204049c2a021b": {
+      "category": "card",
+      "status": "ready",
+      "path": "cards/card-1379e38c684290c795280f5675426a0f1b3f4934fb6a8e342b9204049c2a021b.mp3",
+      "text": "Ich halte es für wichtig, verschiedene Meinungen zu berücksichtigen.",
+      "duration_seconds": 4.64
+    },
+    "card-385cd933d4c752dd2caf36f4ac5feeb1ce07714eb6c254e219df28a35ef12a46": {
+      "category": "card",
+      "status": "ready",
+      "path": "cards/card-385cd933d4c752dd2caf36f4ac5feeb1ce07714eb6c254e219df28a35ef12a46.mp3",
+      "text": "Hätten wir früher gebucht, hätten wir weniger bezahlen müssen.",
+      "duration_seconds": 5.28
+    }
+  }
+}
